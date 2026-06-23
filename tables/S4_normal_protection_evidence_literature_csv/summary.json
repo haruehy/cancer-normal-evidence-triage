@@ -1,0 +1,17 @@
+{
+  "main_xlsx": "/mnt/data/normal_protection_evidence_literature_v1/normal_protection_evidence_literature_v1.xlsx",
+  "n_evidence_rows": 12,
+  "compounds": [
+    "Trolox",
+    "Taurine",
+    "Benfotiamine",
+    "L-ergothioneine"
+  ],
+  "outputs": [
+    "normal_protection_evidence_literature_v1.xlsx",
+    "tables/normal_protection_compound_summary.csv",
+    "tables/normal_protection_literature_evidence_rows.csv",
+    "tables/normal_protection_remaining_gaps.csv",
+    "texts/README.md"
+  ]
+}

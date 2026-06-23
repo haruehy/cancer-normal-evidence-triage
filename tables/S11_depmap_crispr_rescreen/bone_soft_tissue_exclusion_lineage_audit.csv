@@ -1,0 +1,64 @@
+comparison,lineage,excluded_by_corrected_rule,n_total,n_positive,n_negative
+repair_high_removal_high_vs_others,Ampulla of Vater,False,1,0,1
+repair_high_removal_high_vs_others,Biliary Tract,False,5,0,5
+repair_high_removal_high_vs_others,Bladder/Urinary Tract,False,21,5,16
+repair_high_removal_high_vs_others,Bone,True,10,4,6
+repair_high_removal_high_vs_others,Bowel,False,21,6,15
+repair_high_removal_high_vs_others,Breast,False,18,2,16
+repair_high_removal_high_vs_others,CNS/Brain,False,31,4,27
+repair_high_removal_high_vs_others,Esophagus/Stomach,False,36,7,29
+repair_high_removal_high_vs_others,Fibroblast,False,1,1,0
+repair_high_removal_high_vs_others,Head and Neck,False,21,5,16
+repair_high_removal_high_vs_others,Kidney,False,13,0,13
+repair_high_removal_high_vs_others,Liver,False,16,2,14
+repair_high_removal_high_vs_others,Lung,False,71,14,57
+repair_high_removal_high_vs_others,Ovary/Fallopian Tube,False,29,4,25
+repair_high_removal_high_vs_others,Pancreas,False,29,3,26
+repair_high_removal_high_vs_others,Peripheral Nervous System,False,5,2,3
+repair_high_removal_high_vs_others,Pleura,False,9,1,8
+repair_high_removal_high_vs_others,Prostate,False,4,0,4
+repair_high_removal_high_vs_others,Skin,False,29,6,23
+repair_high_removal_high_vs_others,Soft Tissue,True,8,4,4
+repair_high_removal_high_vs_others,Thyroid,False,7,1,6
+repair_high_removal_high_vs_others,Uterus,False,18,5,13
+RTR_high_top20_vs_bottom20,Biliary Tract,False,2,1,1
+RTR_high_top20_vs_bottom20,Bladder/Urinary Tract,False,8,7,1
+RTR_high_top20_vs_bottom20,Bone,True,7,5,2
+RTR_high_top20_vs_bottom20,Bowel,False,4,3,1
+RTR_high_top20_vs_bottom20,Breast,False,8,2,6
+RTR_high_top20_vs_bottom20,CNS/Brain,False,10,9,1
+RTR_high_top20_vs_bottom20,Esophagus/Stomach,False,12,6,6
+RTR_high_top20_vs_bottom20,Head and Neck,False,11,4,7
+RTR_high_top20_vs_bottom20,Kidney,False,7,1,6
+RTR_high_top20_vs_bottom20,Liver,False,11,6,5
+RTR_high_top20_vs_bottom20,Lung,False,25,13,12
+RTR_high_top20_vs_bottom20,Ovary/Fallopian Tube,False,10,4,6
+RTR_high_top20_vs_bottom20,Pancreas,False,15,4,11
+RTR_high_top20_vs_bottom20,Peripheral Nervous System,False,1,1,0
+RTR_high_top20_vs_bottom20,Pleura,False,3,0,3
+RTR_high_top20_vs_bottom20,Prostate,False,2,0,2
+RTR_high_top20_vs_bottom20,Skin,False,11,4,7
+RTR_high_top20_vs_bottom20,Soft Tissue,True,6,6,0
+RTR_high_top20_vs_bottom20,Uterus,False,10,8,2
+RTR_high_top20_vs_others,Ampulla of Vater,False,1,0,1
+RTR_high_top20_vs_others,Biliary Tract,False,5,1,4
+RTR_high_top20_vs_others,Bladder/Urinary Tract,False,21,7,14
+RTR_high_top20_vs_others,Bone,True,10,5,5
+RTR_high_top20_vs_others,Bowel,False,21,3,18
+RTR_high_top20_vs_others,Breast,False,18,2,16
+RTR_high_top20_vs_others,CNS/Brain,False,31,9,22
+RTR_high_top20_vs_others,Esophagus/Stomach,False,36,6,30
+RTR_high_top20_vs_others,Fibroblast,False,1,0,1
+RTR_high_top20_vs_others,Head and Neck,False,21,4,17
+RTR_high_top20_vs_others,Kidney,False,13,1,12
+RTR_high_top20_vs_others,Liver,False,16,6,10
+RTR_high_top20_vs_others,Lung,False,71,13,58
+RTR_high_top20_vs_others,Ovary/Fallopian Tube,False,29,4,25
+RTR_high_top20_vs_others,Pancreas,False,29,4,25
+RTR_high_top20_vs_others,Peripheral Nervous System,False,5,1,4
+RTR_high_top20_vs_others,Pleura,False,9,0,9
+RTR_high_top20_vs_others,Prostate,False,4,0,4
+RTR_high_top20_vs_others,Skin,False,29,4,25
+RTR_high_top20_vs_others,Soft Tissue,True,8,6,2
+RTR_high_top20_vs_others,Thyroid,False,7,0,7
+RTR_high_top20_vs_others,Uterus,False,18,8,10

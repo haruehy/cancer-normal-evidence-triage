@@ -1,0 +1,6 @@
+curation_reason,n_rows_with_reason
+exclude_no_clear_normal_like_cell_keyword,2926
+exclude_not_viability_or_cytotoxicity,329
+exclude_pathogen_or_infection_context,237
+exclude_cancer_cell_context,126
+exclude_generic_pubchem_without_clear_normal_cell,59

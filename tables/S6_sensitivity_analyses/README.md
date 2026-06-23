@@ -1,0 +1,2 @@
+# S6 Table
+AUC clipping, strict-only limiting-case summaries (see strict rows in AUC_clip_sensitivity_main_results), and RTR repair-preservation/removal-vulnerability weight sensitivity. broad_subclass_membership.csv lists the broad-group subclass assignments used for subclass-exclusion sensitivity; the per-exclusion median-AUC recomputation requires the raw PRISM secondary matrix (see data/README).

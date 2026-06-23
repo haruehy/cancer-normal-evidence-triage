@@ -1,0 +1,5 @@
+analysis_group,n_compounds,expected_n_compounds,matches_manuscript
+strict repair/protective,6,6,True
+broad repair/protective,75,75,True
+cytotoxic/removal-like,157,157,True
+other,1261,1261,True

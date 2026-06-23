@@ -1,0 +1,2 @@
+comparison,n_cell_lines_with_delta,spearman_delta_rho,spearman_delta_p,top100_overlap_n,top100_jaccard,repair_high_removal_high_original_n,repair_high_removal_high_clip1_n,repair_high_removal_high_overlap_n,repair_high_removal_high_jaccard,quadrant_changed_n,quadrant_changed_fraction
+secondary_RTR_delta_original_vs_clip1,480,0.7396449203338555,3.038110947598719e-84,44,0.28205128205128205,101,101,101,1.0,0,0.0

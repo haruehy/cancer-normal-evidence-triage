@@ -1,0 +1,404 @@
+depmap_id,CellLineName,lineage,OncotreePrimaryDisease,RTR_score_combined_rank_0_1,combined_RTR_quadrant,RTR_high_removal_high_quadrant_combined,KIF11,KIF11_dependency_score,exclude_bone_or_soft_tissue
+ACH-000030,PC-14,Lung,Non-Small Cell Lung Cancer,0.7770833333333333,repair-low / removal-high,False,-3.129890070452169,3.129890070452169,False
+ACH-000090,PC-3,Prostate,Prostate Adenocarcinoma,0.2270833333333333,repair-low / removal-low,False,-2.676000016041736,2.676000016041736,False
+ACH-000118,HUP-T3,Pancreas,Pancreatic Adenocarcinoma,0.2041666666666666,repair-low / removal-low,False,-2.7359599330265643,2.7359599330265643,False
+ACH-000133,Hs 729,Fibroblast,Non-Cancerous,0.7541666666666667,repair-high / removal-high,True,-2.999328942714589,2.999328942714589,False
+ACH-000155,SW 1990,Pancreas,Pancreatic Adenocarcinoma,0.54375,repair-high / removal-low,False,-2.6092572878810767,2.6092572878810767,False
+ACH-000164,PANC-1,Pancreas,Pancreatic Adenocarcinoma,0.1166666666666666,repair-high / removal-low,False,-3.184588699876401,3.184588699876401,False
+ACH-000261,RERF-LC-AI,Lung,Non-Small Cell Lung Cancer,0.8791666666666667,repair-low / removal-high,False,-3.152632158781821,3.152632158781821,False
+ACH-000307,PK-1,Pancreas,Pancreatic Adenocarcinoma,0.2520833333333333,repair-low / removal-high,False,-3.718898550005492,3.718898550005492,False
+ACH-000332,YAPC,Pancreas,Pancreatic Adenocarcinoma,0.175,repair-low / removal-low,False,-3.012173393900423,3.012173393900423,False
+ACH-000352,HCC1428,Breast,Invasive Breast Carcinoma,0.01875,repair-low / removal-low,False,-3.4181099210743824,3.4181099210743824,False
+ACH-000383,OE33,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.0416666666666666,repair-low / removal-low,False,-2.881274637543066,2.881274637543066,False
+ACH-000476,JHH-4,Liver,Hepatocellular Carcinoma,0.00625,repair-low / removal-low,False,-2.7356978335359674,2.7356978335359674,False
+ACH-000480,HuH-7,Liver,Hepatocellular Carcinoma,0.0083333333333333,repair-high / removal-low,False,-3.004912385119757,3.004912385119757,False
+ACH-000493,SNU-423,Liver,Hepatocellular Carcinoma,0.80625,repair-low / removal-high,False,-2.4415734952181243,2.4415734952181243,False
+ACH-000524,KURAMOCHI,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.7145833333333333,repair-high / removal-high,True,-1.858748545017648,1.858748545017648,False
+ACH-000545,VM-CUB1,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.7416666666666667,repair-high / removal-high,True,-2.6665659402699973,2.6665659402699973,False
+ACH-000552,HT-29,Bowel,Colorectal Adenocarcinoma,0.2604166666666667,repair-low / removal-low,False,-2.4440965520918225,2.4440965520918225,False
+ACH-000563,EBC-1,Lung,Non-Small Cell Lung Cancer,0.86875,repair-high / removal-high,True,-1.9187104675043392,1.9187104675043392,False
+ACH-000579,UACC-257,Skin,Melanoma,0.0833333333333333,repair-high / removal-low,False,-2.961337264340429,2.961337264340429,False
+ACH-000595,LN-229,CNS/Brain,Adult-Type Diffuse Glioma,0.0395833333333333,repair-high / removal-low,False,-2.9603647793165897,2.9603647793165897,False
+ACH-000618,SNU-1041,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.0791666666666666,repair-low / removal-low,False,-2.681370690465525,2.681370690465525,False
+ACH-000648,NCI-H28,Pleura,Pleural Mesothelioma,0.1791666666666666,repair-high / removal-low,False,-2.317849521239125,2.317849521239125,False
+ACH-000652,SUIT-2,Pancreas,Pancreatic Adenocarcinoma,0.0333333333333333,repair-high / removal-low,False,-2.219340150382287,2.219340150382287,False
+ACH-000694,TE-9,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.9104166666666668,repair-high / removal-high,True,-4.2626772635817405,4.2626772635817405,False
+ACH-000717,COLO-680N,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.26875,repair-high / removal-low,False,-2.3308342398237496,2.3308342398237496,False
+ACH-000791,RERF-LC-Ad1,Lung,Non-Small Cell Lung Cancer,0.3020833333333333,repair-high / removal-low,False,-2.304572529609976,2.304572529609976,False
+ACH-000834,UM-UC-1,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.9020833333333332,repair-low / removal-high,False,-2.9696715749109006,2.9696715749109006,False
+ACH-000884,MDA-MB-435S,Skin,Melanoma,0.4229166666666666,repair-low / removal-low,False,-2.227379346461081,2.227379346461081,False
+ACH-000936,EFO-27,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.0479166666666666,repair-high / removal-low,False,-3.087774638485101,3.087774638485101,False
+ACH-000946,HEC-265,Uterus,Endometrial Carcinoma,0.8895833333333333,repair-low / removal-high,False,-2.3658182265834817,2.3658182265834817,False
+ACH-000958,SW48,Bowel,Colorectal Adenocarcinoma,0.6270833333333333,repair-low / removal-high,False,-1.709017492878547,1.709017492878547,False
+ACH-000019,MCF-7,Breast,Invasive Breast Carcinoma,0.1229166666666666,repair-low / removal-low,False,-3.1723140796806195,3.1723140796806195,False
+ACH-000108,KP-3,Pancreas,Adenosquamous Carcinoma of the Pancreas,0.1,repair-low / removal-low,False,-2.9223272541611967,2.9223272541611967,False
+ACH-000159,OS-RC-2,Kidney,Renal Cell Carcinoma,0.1104166666666666,repair-low / removal-low,False,-2.843346250149636,2.843346250149636,False
+ACH-000176,LOU-NH91,Lung,Non-Small Cell Lung Cancer,0.13125,repair-high / removal-low,False,-3.5470382988777835,3.5470382988777835,False
+ACH-000228,BICR 31,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.7791666666666667,repair-high / removal-high,True,-3.566450817437296,3.566450817437296,False
+ACH-000250,KMRC-20,Kidney,Renal Cell Carcinoma,0.06875,repair-low / removal-low,False,-3.591788640727793,3.591788640727793,False
+ACH-000279,EWS502,Bone,Ewing Sarcoma,0.8708333333333333,repair-low / removal-high,False,-2.1463127451891184,2.1463127451891184,True
+ACH-000281,KP-2,Pancreas,Pancreatic Adenocarcinoma,0.4416666666666666,repair-high / removal-low,False,-2.4895312877242675,2.4895312877242675,False
+ACH-000322,HT-144,Skin,Melanoma,0.3333333333333333,repair-low / removal-high,False,-3.562577454624055,3.562577454624055,False
+ACH-000390,LUDLU-1,Lung,Non-Small Cell Lung Cancer,0.1395833333333333,repair-low / removal-low,False,-3.793641731388484,3.793641731388484,False
+ACH-000395,NCI-H520,Lung,Non-Small Cell Lung Cancer,0.225,repair-high / removal-low,False,-3.1563755327483625,3.1563755327483625,False
+ACH-000401,COLO-800,Skin,Melanoma,0.4854166666666666,repair-low / removal-high,False,-2.440222281869203,2.440222281869203,False
+ACH-000403,NCI-H747,Bowel,Colorectal Adenocarcinoma,0.825,repair-high / removal-low,False,-2.8008730991950435,2.8008730991950435,False
+ACH-000454,HCC-95,Lung,Non-Small Cell Lung Cancer,0.76875,repair-low / removal-high,False,-2.418866385724102,2.418866385724102,False
+ACH-000461,SNU-1196,Biliary Tract,Intraductal Papillary Neoplasm of the Bile Duct,0.69375,repair-high / removal-low,False,-2.3428196734786084,2.3428196734786084,False
+ACH-000488,TE-11,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.3541666666666667,repair-low / removal-high,False,-2.705095743301313,2.705095743301313,False
+ACH-000569,IST-MES1,Pleura,Pleural Mesothelioma,0.0625,repair-low / removal-low,False,-2.323928303063272,2.323928303063272,False
+ACH-000630,YD-8,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.1125,repair-high / removal-low,False,-3.5041105253470555,3.5041105253470555,False
+ACH-000666,NCI-H1355,Lung,Non-Small Cell Lung Cancer,0.6229166666666667,repair-high / removal-low,False,-2.390409176753652,2.390409176753652,False
+ACH-000693,KYSE-180,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.7854166666666667,repair-high / removal-high,True,-2.3373590615810675,2.3373590615810675,False
+ACH-000719,RMG-I,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.28125,repair-high / removal-low,False,-4.269522844325452,4.269522844325452,False
+ACH-000732,PE/CA-PJ41 (clone D2),Head and Neck,Head and Neck Squamous Cell Carcinoma,0.3875,repair-low / removal-high,False,-2.1229792277619124,2.1229792277619124,False
+ACH-000749,DMS 273,Lung,Lung Neuroendocrine Tumor,0.1666666666666666,repair-low / removal-high,False,-3.036045959864407,3.036045959864407,False
+ACH-000841,NCI-H2087,Lung,Non-Small Cell Lung Cancer,0.4875,repair-low / removal-high,False,-1.7614711486388026,1.7614711486388026,False
+ACH-000959,SNU-C4,Bowel,Colorectal Adenocarcinoma,0.6770833333333334,repair-high / removal-high,True,-3.063914933214087,3.063914933214087,False
+ACH-000965,RL95-2,Uterus,Endometrial Carcinoma,0.7166666666666667,repair-low / removal-high,False,-4.20544588453709,4.20544588453709,False
+ACH-000978,EN,Uterus,Endometrial Carcinoma,0.075,repair-high / removal-low,False,-3.25839818108338,3.25839818108338,False
+ACH-001128,MON,Soft Tissue,Rhabdoid Cancer,0.9854166666666668,repair-low / removal-high,False,-2.794217983107988,2.794217983107988,True
+ACH-001318,PLC/PRF/5,Liver,Hepatocellular Carcinoma,0.81875,repair-high / removal-high,True,-2.9079402026300425,2.9079402026300425,False
+ACH-000123,COV434,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.5583333333333333,repair-low / removal-high,False,-3.1134651872092154,3.1134651872092154,False
+ACH-000217,JHH-6,Liver,Hepatocellular Carcinoma,0.3104166666666667,repair-high / removal-low,False,-3.699843586316712,3.699843586316712,False
+ACH-000232,U-251 MG,CNS/Brain,Adult-Type Diffuse Glioma,0.3916666666666666,repair-low / removal-low,False,-2.6149196518356552,2.6149196518356552,False
+ACH-000242,RT4,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.9708333333333332,repair-high / removal-high,True,-2.8413453325285007,2.8413453325285007,False
+ACH-000243,DAN-G,Pancreas,Pancreatic Adenocarcinoma,0.9,repair-low / removal-high,False,-3.189942397105246,3.189942397105246,False
+ACH-000273,SF539,CNS/Brain,Diffuse Glioma,0.89375,repair-high / removal-high,True,-2.1908529728381034,2.1908529728381034,False
+ACH-000359,MG-63,Bone,Osteosarcoma,0.04375,repair-low / removal-high,False,-2.887804623020975,2.887804623020975,True
+ACH-000376,SF-295,CNS/Brain,Adult-Type Diffuse Glioma,0.9604166666666668,repair-high / removal-low,False,-1.8580465948995708,1.8580465948995708,False
+ACH-000396,J82,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.31875,repair-low / removal-high,False,-2.2462210607311084,2.2462210607311084,False
+ACH-000404,K029AX,Skin,Melanoma,0.9354166666666668,repair-high / removal-low,False,-2.756946454470589,2.756946454470589,False
+ACH-000421,SW837,Bowel,Colorectal Adenocarcinoma,0.4916666666666666,repair-high / removal-low,False,-2.71747468533924,2.71747468533924,False
+ACH-000437,SW 1088,CNS/Brain,Adult-Type Diffuse Glioma,0.5333333333333333,repair-low / removal-high,False,-2.507957199683512,2.507957199683512,False
+ACH-000484,VMRC-RCW,Kidney,Renal Cell Carcinoma,0.34375,repair-high / removal-low,False,-2.6319871723621158,2.6319871723621158,False
+ACH-000495,TUHR4TKB,Kidney,Renal Cell Carcinoma,0.2166666666666666,repair-low / removal-high,False,-2.977719986926026,2.977719986926026,False
+ACH-000537,SNU-761,Liver,Hepatocellular Carcinoma,0.0020833333333333,repair-high / removal-low,False,-2.405247670385477,2.405247670385477,False
+ACH-000562,HCC-78,Lung,Non-Small Cell Lung Cancer,0.3291666666666666,repair-low / removal-low,False,-3.2066000215813557,3.2066000215813557,False
+ACH-000570,YKG1,CNS/Brain,Adult-Type Diffuse Glioma,0.7333333333333333,repair-low / removal-high,False,-3.203379995700342,3.203379995700342,False
+ACH-000573,MDA-MB-436,Breast,Invasive Breast Carcinoma,0.8229166666666666,repair-high / removal-low,False,-3.627257941271315,3.627257941271315,False
+ACH-000738,GB-1,CNS/Brain,Adult-Type Diffuse Glioma,0.4208333333333333,repair-high / removal-low,False,-2.696399362960489,2.696399362960489,False
+ACH-000747,NCI-H1703,Lung,Non-Small Cell Lung Cancer,0.9270833333333334,repair-high / removal-high,True,-1.7483280405688848,1.7483280405688848,False
+ACH-000766,NCI-H1648,Lung,Non-Small Cell Lung Cancer,0.8854166666666666,repair-low / removal-high,False,-3.462559541863353,3.462559541863353,False
+ACH-000802,BFTC-905,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.6645833333333333,repair-high / removal-high,True,-2.7367254355998987,2.7367254355998987,False
+ACH-000809,KYSE-410,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.4291666666666666,repair-low / removal-high,False,-2.106314812118508,2.106314812118508,False
+ACH-000811,SK-OV-3,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.4270833333333333,repair-low / removal-low,False,-3.575975474097212,3.575975474097212,False
+ACH-000849,MDA-MB-468,Breast,Invasive Breast Carcinoma,0.5541666666666667,repair-low / removal-high,False,-3.6775145567845327,3.6775145567845327,False
+ACH-000911,NUGC-3,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.66875,repair-low / removal-high,False,-2.146443038641154,2.146443038641154,False
+ACH-000915,IPC-298,Skin,Melanoma,0.4,repair-low / removal-low,False,-2.5370300203004112,2.5370300203004112,False
+ACH-000939,SK-UT-1,Uterus,Uterine Sarcoma/Mesenchymal,0.8770833333333333,repair-low / removal-high,False,-3.3685066037404243,3.3685066037404243,False
+ACH-000943,RKO,Bowel,Colorectal Adenocarcinoma,0.9291666666666668,repair-high / removal-high,True,-3.408800145596472,3.408800145596472,False
+ACH-000973,639-V,Bladder/Urinary Tract,Urethral Cancer,0.8,repair-low / removal-high,False,-3.462862913850149,3.462862913850149,False
+ACH-000988,MFE-319,Uterus,Endometrial Carcinoma,0.73125,repair-high / removal-high,True,-3.6349244078284784,3.6349244078284784,False
+ACH-001239,WM-266-4,Skin,Melanoma,0.025,repair-low / removal-low,False,-2.4580559804970656,2.4580559804970656,False
+ACH-000026,253J-BV,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.3208333333333333,repair-low / removal-low,False,-2.6988117411568155,2.6988117411568155,False
+ACH-000048,TOV-112D,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.7041666666666667,repair-low / removal-high,False,-2.558342273218335,2.558342273218335,False
+ACH-000054,HT-1080,Soft Tissue,Fibrosarcoma,0.8083333333333333,repair-high / removal-high,True,-3.246849404327429,3.246849404327429,True
+ACH-000092,NCI-H2452,Pleura,Pleural Mesothelioma,0.7458333333333333,repair-high / removal-high,True,-2.68260360541286,2.68260360541286,False
+ACH-000141,SNU-308,Biliary Tract,Intracholecystic Papillary Neoplasm,0.875,repair-high / removal-low,False,-3.3401862994002838,3.3401862994002838,False
+ACH-000163,SW579,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.9875,repair-high / removal-high,True,-3.0778190376505825,3.0778190376505825,False
+ACH-000188,SCC-25,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.8604166666666667,repair-high / removal-high,True,-2.13710978017553,2.13710978017553,False
+ACH-000231,KALS-1,CNS/Brain,Adult-Type Diffuse Glioma,0.5166666666666667,repair-low / removal-high,False,-2.2014936996512877,2.2014936996512877,False
+ACH-000252,LS1034,Bowel,Colorectal Adenocarcinoma,0.6166666666666667,repair-high / removal-low,False,-3.008869268962746,3.008869268962746,False
+ACH-000259,KELLY,Peripheral Nervous System,Neuroblastoma,0.65625,repair-high / removal-low,False,-2.9258817286120324,2.9258817286120324,False
+ACH-000320,PSN1,Pancreas,Pancreatic Adenocarcinoma,0.7979166666666667,repair-low / removal-high,False,-2.874588738854695,2.874588738854695,False
+ACH-000391,MHH-ES-1,Bone,Ewing Sarcoma,0.975,repair-high / removal-high,True,-3.319157149271772,3.319157149271772,True
+ACH-000416,NCI-H838,Lung,Non-Small Cell Lung Cancer,0.6083333333333333,repair-high / removal-low,False,-2.043161887673556,2.043161887673556,False
+ACH-000441,SH-4,Skin,Melanoma,0.0208333333333333,repair-low / removal-low,False,-3.239182159095063,3.239182159095063,False
+ACH-000472,HSC-2,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.3833333333333333,repair-low / removal-low,False,-3.6291734640353113,3.6291734640353113,False
+ACH-000528,ABC-1,Lung,Non-Small Cell Lung Cancer,0.6875,repair-high / removal-high,True,-2.8227450956727385,2.8227450956727385,False
+ACH-000637,KYSE-520,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.44375,repair-high / removal-low,False,-2.389758160429827,2.389758160429827,False
+ACH-000696,OVCAR-8,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.6604166666666667,repair-high / removal-high,True,-2.766738600038426,2.766738600038426,False
+ACH-000753,JMSU-1,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.21875,repair-low / removal-high,False,-3.034985783344843,3.034985783344843,False
+ACH-000771,BICR 56,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.1291666666666666,repair-low / removal-low,False,-3.0699799825645564,3.0699799825645564,False
+ACH-000796,MCAS,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.3645833333333333,repair-low / removal-low,False,-2.5657052698100324,2.5657052698100324,False
+ACH-000827,WM793,Skin,Melanoma,0.4479166666666667,repair-low / removal-low,False,-2.964271341196505,2.964271341196505,False
+ACH-000843,HARA,Lung,Non-Small Cell Lung Cancer,0.93125,repair-high / removal-high,True,-3.3428745710445047,3.3428745710445047,False
+ACH-000848,JHH-7,Liver,Hepatocellular Carcinoma,0.8729166666666667,repair-high / removal-high,True,-1.978245802800376,1.978245802800376,False
+ACH-000853,NCI-H661,Lung,Non-Small Cell Lung Cancer,0.3625,repair-low / removal-low,False,-1.3425585267769926,1.3425585267769926,False
+ACH-000900,NCI-H23,Lung,Non-Small Cell Lung Cancer,0.7875,repair-low / removal-high,False,-1.9595239983631283,1.9595239983631283,False
+ACH-000926,HT-55,Bowel,Colorectal Adenocarcinoma,0.0375,repair-high / removal-low,False,-2.873241379790067,2.873241379790067,False
+ACH-000929,NCI-H2110,Lung,Non-Small Cell Lung Cancer,0.8916666666666667,repair-high / removal-high,True,-2.568768950290936,2.568768950290936,False
+ACH-000979,DU 145,Prostate,Prostate Adenocarcinoma,0.1916666666666666,repair-low / removal-low,False,-1.9821129243193176,1.9821129243193176,False
+ACH-001075,NCI-H292,Lung,Non-Small Cell Lung Cancer,0.1979166666666666,repair-low / removal-low,False,-2.861534037428456,2.861534037428456,False
+ACH-001190,SK-MEL-2,Skin,Melanoma,0.85625,repair-high / removal-high,True,-3.29641036703261,3.29641036703261,False
+ACH-000086,ACC-MESO-1,Pleura,Pleural Mesothelioma,0.0104166666666666,repair-low / removal-low,False,-2.335022755603233,2.335022755603233,False
+ACH-000096,G-401,Kidney,Rhabdoid Cancer,0.6729166666666667,repair-low / removal-high,False,-1.789064244195784,1.789064244195784,False
+ACH-000137,8-MG-BA,CNS/Brain,Adult-Type Diffuse Glioma,0.3895833333333333,repair-low / removal-low,False,-2.824080974019946,2.824080974019946,False
+ACH-000219,A-375,Skin,Melanoma,0.7625,repair-high / removal-high,True,-2.259779583337221,2.259779583337221,False
+ACH-000266,SNU-213,Pancreas,Pancreatic Adenocarcinoma,0.05625,repair-high / removal-low,False,-2.7594969424013343,2.7594969424013343,False
+ACH-000318,TE-10,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.2708333333333333,repair-high / removal-low,False,-3.100449814790097,3.100449814790097,False
+ACH-000361,SK-HEP-1,Liver,Hepatocellular Carcinoma,0.50625,repair-low / removal-high,False,-3.203395950792914,3.203395950792914,False
+ACH-000364,U-2 OS,Bone,Osteosarcoma,0.91875,repair-high / removal-high,True,-2.266592508477187,2.266592508477187,True
+ACH-000368,SNU-1105,CNS/Brain,Adult-Type Diffuse Glioma,0.8333333333333334,repair-low / removal-high,False,-3.1193083149594205,3.1193083149594205,False
+ACH-000408,TE-5,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.1083333333333333,repair-high / removal-low,False,-3.065333532906695,3.065333532906695,False
+ACH-000420,SNU-449,Liver,Hepatocellular Carcinoma,0.1770833333333333,repair-high / removal-low,False,-1.2758340692297967,1.2758340692297967,False
+ACH-000444,LU99,Lung,Non-Small Cell Lung Cancer,0.78125,repair-high / removal-high,True,-3.0018710737332754,3.0018710737332754,False
+ACH-000456,B-CPAP,Thyroid,Poorly Differentiated Thyroid Cancer,0.61875,repair-low / removal-high,False,-1.8444177063104856,1.8444177063104856,False
+ACH-000479,KNS-81,CNS/Brain,Adult-Type Diffuse Glioma,0.2083333333333333,repair-high / removal-low,False,-1.9878302169706363,1.9878302169706363,False
+ACH-000502,TCC-PAN2,Pancreas,Pancreatic Adenocarcinoma,0.0541666666666666,repair-high / removal-low,False,-2.088580076073092,2.088580076073092,False
+ACH-000599,PA-TU-8902,Pancreas,Pancreatic Adenocarcinoma,0.0666666666666666,repair-low / removal-low,False,-2.773786227939138,2.773786227939138,False
+ACH-000622,KNS-42,CNS/Brain,Adult-Type Diffuse Glioma,0.4145833333333333,repair-high / removal-low,False,-3.380028695083312,3.380028695083312,False
+ACH-000624,HCC1806,Breast,Breast Ductal Carcinoma In Situ,0.7208333333333333,repair-high / removal-low,False,-3.533450597955424,3.533450597955424,False
+ACH-000682,SNU-1066,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.0708333333333333,repair-low / removal-high,False,-3.430803763795568,3.430803763795568,False
+ACH-000774,RERF-LC-Ad2,Lung,Non-Small Cell Lung Cancer,0.425,repair-high / removal-low,False,-2.8359646865419874,2.8359646865419874,False
+ACH-000832,CAL 27,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.6708333333333333,repair-high / removal-low,False,-1.30779664038228,1.30779664038228,False
+ACH-000837,NCI-H322,Lung,Non-Small Cell Lung Cancer,0.2291666666666666,repair-low / removal-low,False,-3.409519391461905,3.409519391461905,False
+ACH-000847,HGC-27,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.8416666666666667,repair-high / removal-high,True,-2.7407963081395628,2.7407963081395628,False
+ACH-000862,KMBC-2,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.8354166666666667,repair-low / removal-high,False,-3.3611028541271635,3.3611028541271635,False
+ACH-000957,LS 180,Bowel,Colorectal Adenocarcinoma,0.2208333333333333,repair-low / removal-low,False,-3.079607097488848,3.079607097488848,False
+ACH-000147,T-47D,Breast,Invasive Breast Carcinoma,0.3729166666666667,repair-high / removal-low,False,-3.1387569906275603,3.1387569906275603,False
+ACH-000182,SNU-869,Ampulla of Vater,Ampullary Carcinoma,0.4541666666666666,repair-high / removal-low,False,-2.044264191267526,2.044264191267526,False
+ACH-000210,CADO-ES1,Bone,Ewing Sarcoma,0.5291666666666667,repair-high / removal-low,False,-2.421846624731032,2.421846624731032,True
+ACH-000221,SNU-398,Liver,Hepatocellular Carcinoma,0.6583333333333333,repair-low / removal-high,False,-2.3320767686543684,2.3320767686543684,False
+ACH-000223,HCC1937,Breast,Invasive Breast Carcinoma,0.1020833333333333,repair-high / removal-low,False,-3.263586123414485,3.263586123414485,False
+ACH-000255,LMSU,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.8833333333333333,repair-low / removal-high,False,-2.796466573651979,2.796466573651979,False
+ACH-000288,BT-549,Breast,Invasive Breast Carcinoma,0.4395833333333333,repair-low / removal-high,False,-3.005477718511425,3.005477718511425,False
+ACH-000311,NCI-H2122,Lung,Non-Small Cell Lung Cancer,0.6958333333333333,repair-low / removal-high,False,-3.4184594169248577,3.4184594169248577,False
+ACH-000356,MKN-45,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.9208333333333332,repair-high / removal-high,True,-2.011074917653944,2.011074917653944,False
+ACH-000389,H4,CNS/Brain,Adult-Type Diffuse Glioma,0.9958333333333332,repair-high / removal-high,True,-1.6643676364486946,1.6643676364486946,False
+ACH-000427,NCI-N87,Esophagus/Stomach,Esophagogastric Adenocarcinoma,1.0,repair-high / removal-low,False,-2.4787023339805625,2.4787023339805625,False
+ACH-000434,NCI-H1915,Lung,Non-Small Cell Lung Cancer,0.5416666666666666,repair-high / removal-low,False,-2.875925418470119,2.875925418470119,False
+ACH-000445,KNS-60,CNS/Brain,Adult-Type Diffuse Glioma,0.5916666666666667,repair-high / removal-high,True,-2.6783514401438446,2.6783514401438446,False
+ACH-000463,NCI-H460,Lung,Non-Small Cell Lung Cancer,0.7583333333333333,repair-low / removal-high,False,-2.216986714597957,2.216986714597957,False
+ACH-000481,NCI-H2170,Lung,Non-Small Cell Lung Cancer,0.8645833333333334,repair-high / removal-high,True,-3.5629049543242237,3.5629049543242237,False
+ACH-000496,NCI-H1792,Lung,Non-Small Cell Lung Cancer,0.9041666666666668,repair-high / removal-high,True,-3.23093982105617,3.23093982105617,False
+ACH-000565,RCM-1,Bowel,Colorectal Adenocarcinoma,0.5,repair-low / removal-high,False,-0.5819903915189664,0.5819903915189664,False
+ACH-000587,NCI-H1975,Lung,Non-Small Cell Lung Cancer,0.51875,repair-low / removal-high,False,-3.5193183620056905,3.5193183620056905,False
+ACH-000651,SW 620,Bowel,Colorectal Adenocarcinoma,0.5895833333333333,repair-low / removal-high,False,-2.5684530857745296,2.5684530857745296,False
+ACH-000672,IA-LM,Lung,Non-Small Cell Lung Cancer,0.25625,repair-high / removal-low,False,-2.5880844827042164,2.5880844827042164,False
+ACH-000681,A549,Lung,Non-Small Cell Lung Cancer,0.6020833333333333,repair-high / removal-low,False,-2.7508959621251687,2.7508959621251687,False
+ACH-000724,HT-1376,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.725,repair-high / removal-low,False,-3.0153542597041096,3.0153542597041096,False
+ACH-000735,PE/CA-PJ49,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.55,repair-low / removal-high,False,-3.589060873452877,3.589060873452877,False
+ACH-000741,U-BLC1,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.8520833333333333,repair-low / removal-high,False,-3.315175330099239,3.315175330099239,False
+ACH-000768,MDA-MB-231,Breast,Invasive Breast Carcinoma,0.3958333333333333,repair-high / removal-low,False,-2.3236550592462466,2.3236550592462466,False
+ACH-000800,NCI-H446,Lung,Lung Neuroendocrine Tumor,0.5375,repair-low / removal-high,False,-2.735339896369488,2.735339896369488,False
+ACH-000824,KYSE-510,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.8020833333333334,repair-low / removal-high,False,-3.4314204936195143,3.4314204936195143,False
+ACH-000840,HCC-366,Lung,Non-Small Cell Lung Cancer,0.5479166666666667,repair-high / removal-low,False,-3.234519024334852,3.234519024334852,False
+ACH-000890,SW 1271,Lung,SMARCA4-deficient undifferentiated tumor,0.4333333333333333,repair-high / removal-low,False,-2.7901592372611703,2.7901592372611703,False
+ACH-000947,OVK18,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.1645833333333333,repair-low / removal-high,False,-3.3073791704918154,3.3073791704918154,False
+ACH-000972,HEC-151,Uterus,Endometrial Carcinoma,0.5854166666666667,repair-low / removal-high,False,-2.4817579068154303,2.4817579068154303,False
+ACH-000996,HEC-251,Uterus,Endometrial Carcinoma,0.6104166666666667,repair-high / removal-low,False,-3.137822492465503,3.137822492465503,False
+ACH-000022,PA-TU-8988S,Pancreas,Pancreatic Adenocarcinoma,0.7125,repair-high / removal-low,False,-3.3474106291087837,3.3474106291087837,False
+ACH-000023,PA-TU-8988T,Pancreas,Pancreatic Adenocarcinoma,0.4958333333333333,repair-low / removal-high,False,-2.986599051601788,2.986599051601788,False
+ACH-000037,S-117,Soft Tissue,"Sarcoma, NOS",0.575,repair-low / removal-high,False,-3.108335081706843,3.108335081706843,True
+ACH-000098,GAMG,CNS/Brain,Adult-Type Diffuse Glioma,0.7479166666666667,repair-high / removal-low,False,-3.425517991642814,3.425517991642814,False
+ACH-000174,CAL-62,Thyroid,Anaplastic Thyroid Cancer,0.53125,repair-low / removal-high,False,-3.269879742513616,3.269879742513616,False
+ACH-000235,Panc 04.03,Pancreas,Pancreatic Adenocarcinoma,0.1458333333333333,repair-low / removal-low,False,-2.726292580313319,2.726292580313319,False
+ACH-000268,SNU-245,Biliary Tract,Intraductal Papillary Neoplasm of the Bile Duct,0.38125,repair-high / removal-low,False,-3.005626791147154,3.005626791147154,False
+ACH-000393,HLF,Liver,Hepatocellular Carcinoma,0.8625,repair-high / removal-low,False,-2.897364360270656,2.897364360270656,False
+ACH-000415,BICR 6,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.8583333333333333,repair-high / removal-high,True,-3.309446464812964,3.309446464812964,False
+ACH-000452,TE-8,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.6125,repair-high / removal-low,False,-4.172206404524178,4.172206404524178,False
+ACH-000458,CJM,Skin,Melanoma,0.7833333333333333,repair-high / removal-high,True,-2.5305299362225337,2.5305299362225337,False
+ACH-000468,PK-45H,Pancreas,Pancreatic Adenocarcinoma,0.2833333333333333,repair-high / removal-low,False,-3.394300103102116,3.394300103102116,False
+ACH-000477,Malme-3M,Skin,Melanoma,0.7708333333333334,repair-high / removal-low,False,-3.1199861658771786,3.1199861658771786,False
+ACH-000486,KU-19-19,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.3770833333333333,repair-low / removal-high,False,-2.340021915758718,2.340021915758718,False
+ACH-000510,NCI-H1299,Lung,Non-Small Cell Lung Cancer,0.0291666666666666,repair-low / removal-low,False,-2.8641682713787118,2.8641682713787118,False
+ACH-000527,OVISE,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.1875,repair-low / removal-low,False,-3.760062999294544,3.760062999294544,False
+ACH-000532,SNU-61,Bowel,Colorectal Adenocarcinoma,0.65,repair-high / removal-high,True,-3.555164169181251,3.555164169181251,False
+ACH-000549,SNU-1076,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.0583333333333333,repair-low / removal-low,False,-1.4149937855224568,1.4149937855224568,False
+ACH-000614,RVH-421,Skin,Melanoma,0.6833333333333333,repair-high / removal-high,True,-4.311974357423361,4.311974357423361,False
+ACH-000647,TE-1,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.3354166666666666,repair-low / removal-low,False,-2.613081273895314,2.613081273895314,False
+ACH-000663,OVTOKO,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.3166666666666666,repair-low / removal-high,False,-4.176393730563431,4.176393730563431,False
+ACH-000711,JIMT-1,Breast,Invasive Breast Carcinoma,0.15,repair-low / removal-low,False,-2.354912486891517,2.354912486891517,False
+ACH-000783,CAMA-1,Breast,Invasive Breast Carcinoma,0.3083333333333333,repair-high / removal-low,False,-3.647729495033345,3.647729495033345,False
+ACH-000785,NCI-H2126,Lung,Non-Small Cell Lung Cancer,0.3395833333333333,repair-low / removal-low,False,-3.441766271924929,3.441766271924929,False
+ACH-000805,COLO-679,Skin,Melanoma,0.2479166666666666,repair-low / removal-high,False,-2.2006565630459227,2.2006565630459227,False
+ACH-000839,SCaBER,Bladder/Urinary Tract,Bladder Squamous Cell Carcinoma,0.6395833333333333,repair-low / removal-high,False,-2.012093411590219,2.012093411590219,False
+ACH-000846,FaDu,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.2354166666666666,repair-low / removal-high,False,-2.081448020290919,2.081448020290919,False
+ACH-000855,KYSE-150,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.3270833333333333,repair-high / removal-low,False,-2.930355020261157,2.930355020261157,False
+ACH-000880,AGS,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.36875,repair-low / removal-high,False,-3.128444612114397,3.128444612114397,False
+ACH-000007,LS513,Bowel,Colorectal Adenocarcinoma,0.5791666666666667,repair-high / removal-high,True,-1.9679540421439712,1.9679540421439712,False
+ACH-000021,NCI-H1693,Lung,Non-Small Cell Lung Cancer,0.43125,repair-high / removal-low,False,-3.22788652945796,3.22788652945796,False
+ACH-000276,HCC38,Breast,Invasive Breast Carcinoma,0.9770833333333332,repair-high / removal-high,True,-3.5374610759808744,3.5374610759808744,False
+ACH-000278,COV362,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.3375,repair-high / removal-low,False,-3.090411882373748,3.090411882373748,False
+ACH-000292,NCI-H841,Lung,SMARCA4-deficient undifferentiated tumor,0.8041666666666667,repair-low / removal-high,False,-2.921292496875685,2.921292496875685,False
+ACH-000313,KMRC-3,Kidney,Renal Cell Carcinoma,0.1541666666666666,repair-low / removal-low,False,-3.4577182798061608,3.4577182798061608,False
+ACH-000344,SNU-668,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.1270833333333333,repair-low / removal-low,False,-1.69963420434612,1.69963420434612,False
+ACH-000367,NCI-H226,Pleura,Pleural Mesothelioma,0.275,repair-high / removal-low,False,-3.30717301119524,3.30717301119524,False
+ACH-000375,G-402,Kidney,Rhabdoid Cancer,0.7229166666666667,repair-low / removal-high,False,-2.232964873170724,2.232964873170724,False
+ACH-000425,UACC-62,Skin,Melanoma,0.7083333333333334,repair-low / removal-high,False,-3.2901376311131743,3.2901376311131743,False
+ACH-000503,BICR 16,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.9791666666666666,repair-high / removal-high,True,-1.7884437561491442,1.7884437561491442,False
+ACH-000516,CAL-78,Bone,Chondrosarcoma,0.9479166666666666,repair-high / removal-high,True,-3.537788333525608,3.537788333525608,True
+ACH-000535,BxPC-3,Pancreas,Pancreatic Adenocarcinoma,0.99375,repair-high / removal-low,False,-3.1912081309078157,3.1912081309078157,False
+ACH-000558,A-172,CNS/Brain,Adult-Type Diffuse Glioma,0.9625,repair-high / removal-low,False,-3.679379836218769,3.679379836218769,False
+ACH-000609,SF126,CNS/Brain,Adult-Type Diffuse Glioma,0.23125,repair-low / removal-high,False,-3.4486097993173224,3.4486097993173224,False
+ACH-000661,WM1799,Skin,Melanoma,0.2125,repair-low / removal-high,False,-2.759312565621978,2.759312565621978,False
+ACH-000685,L3.3,Pancreas,Adenosquamous Carcinoma of the Pancreas,0.8208333333333333,repair-high / removal-high,True,-2.6588459078749787,2.6588459078749787,False
+ACH-000736,SNU-601,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.7895833333333333,repair-low / removal-high,False,-1.834977053154966,1.834977053154966,False
+ACH-000748,SJSA-1,Bone,Osteosarcoma,0.1625,repair-high / removal-low,False,-3.374894596291635,3.374894596291635,True
+ACH-000758,MKN74,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.2958333333333333,repair-high / removal-low,False,-2.390277213577139,2.390277213577139,False
+ACH-000787,LXF-289,Lung,Non-Small Cell Lung Cancer,0.4020833333333333,repair-low / removal-high,False,-2.196284541152461,2.196284541152461,False
+ACH-000856,CAL-51,Breast,Invasive Breast Carcinoma,0.2458333333333333,repair-low / removal-low,False,-2.7078888456668566,2.7078888456668566,False
+ACH-000860,NCI-H358,Lung,Non-Small Cell Lung Cancer,0.3604166666666666,repair-low / removal-low,False,-3.5549585613874872,3.5549585613874872,False
+ACH-000869,NCI-H1568,Lung,Non-Small Cell Lung Cancer,0.1479166666666666,repair-low / removal-high,False,-3.923835574391139,3.923835574391139,False
+ACH-000899,WM88,Skin,Melanoma,0.2333333333333333,repair-high / removal-low,False,-2.6085374842882145,2.6085374842882145,False
+ACH-000901,HCC-1359,Lung,Non-Small Cell Lung Cancer,0.9145833333333332,repair-high / removal-high,True,-2.722696098120981,2.722696098120981,False
+ACH-000906,ES-2,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.6145833333333334,repair-low / removal-high,False,-2.978704427984602,2.978704427984602,False
+ACH-000919,IM95,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.7604166666666666,repair-high / removal-high,True,-2.925447887938677,2.925447887938677,False
+ACH-000970,SNU-C5,Bowel,Colorectal Adenocarcinoma,0.3666666666666666,repair-high / removal-low,False,-2.901445407032069,2.901445407032069,False
+ACH-000971,HCT 116,Bowel,Colorectal Adenocarcinoma,0.4458333333333333,repair-low / removal-high,False,-2.767272190456327,2.767272190456327,False
+ACH-000991,SNU-81,Bowel,Colorectal Adenocarcinoma,0.5708333333333333,repair-high / removal-high,True,-3.460793538934513,3.460793538934513,False
+ACH-001016,Becker,CNS/Brain,Adult-Type Diffuse Glioma,0.5770833333333333,repair-low / removal-high,False,-3.10546943304206,3.10546943304206,False
+ACH-000015,NCI-H1581,Lung,Non-Small Cell Lung Cancer,0.4791666666666667,repair-low / removal-high,False,-2.566764890845787,2.566764890845787,False
+ACH-000018,T24,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.0520833333333333,repair-high / removal-low,False,-1.8925210228181544,1.8925210228181544,False
+ACH-000035,NCI-H1650,Lung,Non-Small Cell Lung Cancer,0.5229166666666667,repair-high / removal-low,False,-2.6705379315820097,2.6705379315820097,False
+ACH-000082,"G-292, clone A141B1",Bone,Osteosarcoma,0.2625,repair-high / removal-low,False,-3.133773622892858,3.133773622892858,True
+ACH-000087,SK-ES-1,Bone,Ewing Sarcoma,0.6479166666666667,repair-low / removal-high,False,-2.7658811032239705,2.7658811032239705,True
+ACH-000142,CAL-29,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.75,repair-low / removal-high,False,-1.993108579610829,1.993108579610829,False
+ACH-000178,Hs 766T,Pancreas,Pancreatic Adenocarcinoma,0.1041666666666666,repair-high / removal-low,False,-2.0552288075133167,2.0552288075133167,False
+ACH-000192,MFE-280,Uterus,Endometrial Carcinoma,0.3520833333333333,repair-low / removal-high,False,-3.358624308658143,3.358624308658143,False
+ACH-000207,Detroit 562,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.5020833333333333,repair-low / removal-high,False,-3.7515402164631153,3.7515402164631153,False
+ACH-000209,SNU-1079,Biliary Tract,Intraductal Papillary Neoplasm of the Bile Duct,0.1604166666666666,repair-low / removal-low,False,-1.1365378030135058,1.1365378030135058,False
+ACH-000244,DK-MG,CNS/Brain,Adult-Type Diffuse Glioma,0.4083333333333333,repair-high / removal-low,False,-3.3651897240221675,3.3651897240221675,False
+ACH-000265,KP-4,Pancreas,Pancreatic Adenocarcinoma,0.3979166666666666,repair-low / removal-high,False,-2.570010768423007,2.570010768423007,False
+ACH-000274,Hs 852.T,Skin,Melanoma,0.9645833333333332,repair-high / removal-low,False,-3.68444259682631,3.68444259682631,False
+ACH-000305,EC-GI-10,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.3479166666666666,repair-low / removal-high,False,-4.051839951789759,4.051839951789759,False
+ACH-000316,SNU-886,Liver,Hepatocellular Carcinoma,0.8458333333333333,repair-low / removal-high,False,-1.7297438590634997,1.7297438590634997,False
+ACH-000323,42-MG-BA,CNS/Brain,Adult-Type Diffuse Glioma,0.5104166666666666,repair-low / removal-high,False,-1.778535367110589,1.778535367110589,False
+ACH-000329,CCF-STTG1,CNS/Brain,Adult-Type Diffuse Glioma,0.4833333333333333,repair-high / removal-low,False,-2.5637585817997373,2.5637585817997373,False
+ACH-000397,TEN,Uterus,Endometrial Carcinoma,0.8166666666666667,repair-high / removal-low,False,-2.3330693865404197,2.3330693865404197,False
+ACH-000414,NCI-H1944,Lung,Non-Small Cell Lung Cancer,0.6916666666666667,repair-low / removal-high,False,-3.207668473881286,3.207668473881286,False
+ACH-000433,Caki-1,Kidney,Renal Cell Carcinoma,0.1208333333333333,repair-high / removal-low,False,-3.0515734439218885,3.0515734439218885,False
+ACH-000467,HCC-56,Bowel,Colorectal Adenocarcinoma,0.6333333333333333,repair-high / removal-low,False,-3.1943122173502174,3.1943122173502174,False
+ACH-000571,T98G,CNS/Brain,Adult-Type Diffuse Glioma,0.59375,repair-low / removal-high,False,-3.2017303427921164,3.2017303427921164,False
+ACH-000592,TM-31,CNS/Brain,Adult-Type Diffuse Glioma,0.8979166666666667,repair-high / removal-low,False,-3.3880401138651104,3.3880401138651104,False
+ACH-000657,A2780,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.35,repair-low / removal-high,False,-2.2650831471637027,2.2650831471637027,False
+ACH-000688,OV7,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.5083333333333333,repair-high / removal-low,False,-2.313161036426867,2.313161036426867,False
+ACH-000720,TCCSUP,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.9229166666666668,repair-high / removal-high,True,-2.53066343855115,2.53066343855115,False
+ACH-000764,SH-10-TC,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.7104166666666667,repair-low / removal-high,False,-2.2713571456368538,2.2713571456368538,False
+ACH-000792,BFTC-909,Kidney,Renal Cell Carcinoma,0.9541666666666668,repair-high / removal-low,False,-3.252649642152748,3.252649642152748,False
+ACH-000826,CAL-12T,Lung,Non-Small Cell Lung Cancer,0.125,repair-low / removal-low,False,-2.015488590376714,2.015488590376714,False
+ACH-000836,YD-15,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.05,repair-low / removal-low,False,-3.3404631483720117,3.3404631483720117,False
+ACH-000886,NCI-H2009,Lung,Non-Small Cell Lung Cancer,0.7645833333333333,repair-high / removal-high,True,-3.287741787658213,3.287741787658213,False
+ACH-000924,NCI-H2172,Lung,Non-Small Cell Lung Cancer,0.1145833333333333,repair-low / removal-low,False,-2.65309380140632,2.65309380140632,False
+ACH-000047,GCIY,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.46875,repair-low / removal-high,False,-3.341909628917162,3.341909628917162,False
+ACH-000138,CFPAC-1,Pancreas,Pancreatic Adenocarcinoma,0.1854166666666666,repair-low / removal-low,False,-2.61996459501681,2.61996459501681,False
+ACH-000161,COR-L105,Lung,Non-Small Cell Lung Cancer,0.0270833333333333,repair-low / removal-low,False,-3.1584281888828327,3.1584281888828327,False
+ACH-000169,RD,Soft Tissue,Rhabdomyosarcoma,0.925,repair-high / removal-high,True,-1.6179295627611492,1.6179295627611492,True
+ACH-000189,RCC10RGB,Kidney,Renal Cell Carcinoma,0.0979166666666666,repair-low / removal-low,False,-2.514225489429056,2.514225489429056,False
+ACH-000212,CAL-120,Breast,Invasive Breast Carcinoma,0.11875,repair-low / removal-low,False,-3.5062171568780705,3.5062171568780705,False
+ACH-000222,AsPC-1,Pancreas,Pancreatic Adenocarcinoma,0.0458333333333333,repair-low / removal-low,False,-2.539804616354841,2.539804616354841,False
+ACH-000280,SNU-840,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.1708333333333333,repair-low / removal-high,False,-2.2208356002929635,2.2208356002929635,False
+ACH-000302,SNU-1077,Uterus,Endometrial Carcinoma,0.9729166666666668,repair-high / removal-low,False,-2.673484961552911,2.673484961552911,False
+ACH-000308,EFO-21,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.2666666666666666,repair-high / removal-low,False,-3.7930094541117976,3.7930094541117976,False
+ACH-000312,SK-N-BE(2),Peripheral Nervous System,Neuroblastoma,0.75625,repair-low / removal-high,False,-1.5120425542842,1.5120425542842,False
+ACH-000331,IST-MES2,Pleura,Pleural Mesothelioma,0.3,repair-high / removal-low,False,-1.5620744057631757,1.5620744057631757,False
+ACH-000335,MSTO-211H,Pleura,Pleural Mesothelioma,0.5125,repair-low / removal-high,False,-2.3412451824947658,2.3412451824947658,False
+ACH-000343,NCI-H522,Lung,Non-Small Cell Lung Cancer,0.9375,repair-high / removal-low,False,-3.1486929644830592,3.1486929644830592,False
+ACH-000407,SNU-685,Uterus,Endometrial Carcinoma,0.95,repair-high / removal-high,True,-2.279789288493504,2.279789288493504,False
+ACH-000469,YH-13,CNS/Brain,Adult-Type Diffuse Glioma,0.9916666666666668,repair-high / removal-high,True,-2.687847867450106,2.687847867450106,False
+ACH-000542,Hey-A8,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.24375,repair-low / removal-low,False,-3.318707392568077,3.318707392568077,False
+ACH-000601,MIA PaCa-2,Pancreas,Pancreatic Adenocarcinoma,0.56875,repair-low / removal-high,False,-2.2403140100775816,2.2403140100775816,False
+ACH-000620,JHH-1,Liver,Hepatocellular Carcinoma,0.0854166666666666,repair-high / removal-low,False,-3.5686707948694587,3.5686707948694587,False
+ACH-000632,Hs 944.T,Skin,Melanoma,0.71875,repair-high / removal-high,True,-3.2236276879923302,3.2236276879923302,False
+ACH-000667,HCC-44,Lung,Non-Small Cell Lung Cancer,0.5625,repair-low / removal-high,False,-3.3758567722641506,3.3758567722641506,False
+ACH-000776,ONS-76,CNS/Brain,Embryonal Tumor,0.48125,repair-low / removal-high,False,-2.7210394731865093,2.7210394731865093,False
+ACH-000784,KYSE-70,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.10625,repair-low / removal-low,False,-2.643557633808905,2.643557633808905,False
+ACH-000804,NB-1,Peripheral Nervous System,Neuroblastoma,0.5458333333333333,repair-low / removal-high,False,-2.324427875035413,2.324427875035413,False
+ACH-000819,LN-18,CNS/Brain,Adult-Type Diffuse Glioma,0.6854166666666667,repair-low / removal-high,False,-2.273922917264107,2.273922917264107,False
+ACH-000823,KYSE-140,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.03125,repair-low / removal-low,False,-2.9146308570292674,2.9146308570292674,False
+ACH-000845,NCI-H1373,Lung,Non-Small Cell Lung Cancer,0.09375,repair-low / removal-low,False,-3.035975634280261,3.035975634280261,False
+ACH-000858,KNS-62,Lung,Non-Small Cell Lung Cancer,0.7520833333333333,repair-high / removal-low,False,-3.461730029497298,3.461730029497298,False
+ACH-000863,DBTRG-05MG,CNS/Brain,Adult-Type Diffuse Glioma,0.6,repair-low / removal-high,False,-2.2198532947629537,2.2198532947629537,False
+ACH-000903,FTC-133,Thyroid,Well-Differentiated Thyroid Cancer,0.325,repair-high / removal-low,False,-2.230401955491038,2.230401955491038,False
+ACH-000921,NCI-H157-DM,Lung,Non-Small Cell Lung Cancer,0.4979166666666667,repair-low / removal-high,False,-2.493230820054333,2.493230820054333,False
+ACH-000962,OC 314,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.5208333333333334,repair-low / removal-high,False,-3.027556529208118,3.027556529208118,False
+ACH-000966,IGROV1,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.6291666666666667,repair-low / removal-high,False,-2.9356997384349706,2.9356997384349706,False
+ACH-000994,HEC-59,Uterus,Endometrial Carcinoma,0.29375,repair-low / removal-low,False,-3.217119776344568,3.217119776344568,False
+ACH-001307,8505C,Thyroid,Anaplastic Thyroid Cancer,0.35625,repair-high / removal-low,False,-2.797352810297768,2.797352810297768,False
+ACH-000012,HCC-827,Lung,Non-Small Cell Lung Cancer,0.2979166666666666,repair-low / removal-high,False,-2.339832091695163,2.339832091695163,False
+ACH-000013,ONCO-DG-1,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.96875,repair-high / removal-high,True,-3.743331430795096,3.743331430795096,False
+ACH-000132,JHOS-2,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.1958333333333333,repair-high / removal-low,False,-3.651068040001417,3.651068040001417,False
+ACH-000264,Calu-6,Lung,Non-Small Cell Lung Cancer,0.8291666666666667,repair-low / removal-high,False,-3.799691262739477,3.799691262739477,False
+ACH-000296,OUMS-23,Bowel,Colorectal Adenocarcinoma,0.3145833333333333,repair-high / removal-low,False,-1.4578337430820183,1.4578337430820183,False
+ACH-000374,HCC1143,Breast,Invasive Breast Carcinoma,0.3416666666666667,repair-high / removal-low,False,-3.829310084190327,3.829310084190327,False
+ACH-000417,Panc 08.13,Pancreas,Pancreatic Adenocarcinoma,0.2416666666666666,repair-high / removal-low,False,-1.6089281280425598,1.6089281280425598,False
+ACH-000450,MEL-HO,Skin,Melanoma,0.1583333333333333,repair-low / removal-low,False,-2.1170050681992265,2.1170050681992265,False
+ACH-000504,SNB75,CNS/Brain,Adult-Type Diffuse Glioma,0.55625,repair-high / removal-low,False,-2.078260406864608,2.078260406864608,False
+ACH-000505,RKN,Soft Tissue,Leiomyosarcoma,0.9083333333333332,repair-high / removal-high,True,-2.604862466071279,2.604862466071279,True
+ACH-000517,SNU-410,Pancreas,Pancreatic Adenocarcinoma,0.6208333333333333,repair-high / removal-low,False,-2.8125621444302,2.8125621444302,False
+ACH-000521,NCI-H2030,Lung,Non-Small Cell Lung Cancer,0.68125,repair-high / removal-high,True,-2.1094605923973115,2.1094605923973115,False
+ACH-000619,PE/CA-PJ15,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.6541666666666667,repair-low / removal-high,False,-2.8263876346029124,2.8263876346029124,False
+ACH-000649,786-O,Kidney,Renal Cell Carcinoma,0.1333333333333333,repair-high / removal-low,False,-3.063140674170671,3.063140674170671,False
+ACH-000713,Caov-3,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.98125,repair-high / removal-high,True,-2.2963528340560844,2.2963528340560844,False
+ACH-000734,JHH-5,Liver,Hepatocellular Carcinoma,0.40625,repair-low / removal-high,False,-3.299556222015318,3.299556222015318,False
+ACH-000775,NCI-H727,Lung,Lung Neuroendocrine Tumor,0.5979166666666667,repair-high / removal-low,False,-2.967654681653684,2.967654681653684,False
+ACH-000777,KYSE-30,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.6041666666666666,repair-low / removal-high,False,-2.8934968888243926,2.8934968888243926,False
+ACH-000788,A2058,Skin,Melanoma,0.8395833333333333,repair-low / removal-high,False,-4.05066236074822,4.05066236074822,False
+ACH-000835,GCT,Soft Tissue,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,0.6666666666666666,repair-high / removal-low,False,-3.0369456598516757,3.0369456598516757,True
+ACH-000878,HCC-15,Lung,Non-Small Cell Lung Cancer,0.7958333333333333,repair-high / removal-high,True,-3.079478097276313,3.079478097276313,False
+ACH-000881,MEL-JUSO,Skin,Melanoma,0.7270833333333333,repair-high / removal-high,True,-3.2826003183946395,3.2826003183946395,False
+ACH-000882,IGR-1,Skin,Melanoma,0.0916666666666666,repair-low / removal-low,False,-3.438223334364834,3.438223334364834,False
+ACH-000885,TOV-21G,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.60625,repair-low / removal-high,False,-2.951916943335416,2.951916943335416,False
+ACH-000896,647-V,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.4354166666666667,repair-low / removal-high,False,-2.8143361197641115,2.8143361197641115,False
+ACH-000917,TE-4,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.7916666666666666,repair-high / removal-high,True,-2.448094582178621,2.448094582178621,False
+ACH-000956,22Rv1,Prostate,Prostate Adenocarcinoma,0.19375,repair-low / removal-low,False,-3.4555546819525342,3.4555546819525342,False
+ACH-000976,HuCCT1,Biliary Tract,Intraductal Papillary Neoplasm of the Bile Duct,0.5145833333333333,repair-low / removal-high,False,-3.151828137802818,3.151828137802818,False
+ACH-000997,HCT-15,Bowel,Colorectal Adenocarcinoma,0.4895833333333333,repair-high / removal-low,False,-0.3309371209332221,0.3309371209332221,False
+ACH-000014,Hs 294T,Skin,Melanoma,0.4729166666666666,repair-low / removal-high,False,-3.1319043223320837,3.1319043223320837,False
+ACH-000040,U-118 MG,CNS/Brain,Adult-Type Diffuse Glioma,0.64375,repair-high / removal-low,False,-1.8021368177491093,1.8021368177491093,False
+ACH-000097,ZR-75-1,Breast,Invasive Breast Carcinoma,0.2770833333333333,repair-low / removal-high,False,-3.647284898263941,3.647284898263941,False
+ACH-000099,SIMA,Peripheral Nervous System,Neuroblastoma,0.8479166666666667,repair-high / removal-high,True,-2.4049594979487945,2.4049594979487945,False
+ACH-000153,NCI-H2052,Pleura,Pleural Mesothelioma,0.2583333333333333,repair-high / removal-low,False,-2.6531378202017764,2.6531378202017764,False
+ACH-000172,TM-87,Soft Tissue,Rhabdoid Cancer,0.8270833333333333,repair-high / removal-high,True,-1.701265084614602,1.701265084614602,True
+ACH-000191,BHT-101,Thyroid,Anaplastic Thyroid Cancer,0.4708333333333333,repair-low / removal-high,False,-2.909566536640824,2.909566536640824,False
+ACH-000237,JHOM-1,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.85,repair-low / removal-high,False,-3.331259796799213,3.331259796799213,False
+ACH-000260,SK-N-AS,Peripheral Nervous System,Neuroblastoma,0.7729166666666667,repair-high / removal-high,True,-3.5414064002707613,3.5414064002707613,False
+ACH-000319,MPP 89,Pleura,Pleural Mesothelioma,0.39375,repair-high / removal-low,False,-2.578061483488653,2.578061483488653,False
+ACH-000411,769-P,Kidney,Renal Cell Carcinoma,0.2541666666666666,repair-low / removal-low,False,-3.782716118817481,3.782716118817481,False
+ACH-000471,Li-7,Liver,Hepatocellular Carcinoma,0.83125,repair-high / removal-low,False,-3.189130515388689,3.189130515388689,False
+ACH-000473,RT-112,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.5666666666666667,repair-low / removal-high,False,-2.692115209702196,2.692115209702196,False
+ACH-000500,SNU-46,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.1729166666666666,repair-low / removal-low,False,-2.786360358818823,2.786360358818823,False
+ACH-000627,LCLC-103H,Lung,Non-Small Cell Lung Cancer,0.74375,repair-low / removal-high,False,-3.3587379033622184,3.3587379033622184,False
+ACH-000665,SK-MES-1,Lung,Non-Small Cell Lung Cancer,0.7666666666666667,repair-high / removal-high,True,-2.714523956641888,2.714523956641888,False
+ACH-000671,HuH-6,Liver,Hepatoblastoma,0.3583333333333333,repair-low / removal-low,False,-2.7225136351900687,2.7225136351900687,False
+ACH-000701,RMUG-S,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.1833333333333333,repair-high / removal-low,False,-3.1002438314965604,3.1002438314965604,False
+ACH-000704,OAW42,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.3854166666666667,repair-high / removal-low,False,-2.966145402911556,2.966145402911556,False
+ACH-000721,HMC-1-8,Breast,Invasive Breast Carcinoma,0.5520833333333334,repair-high / removal-high,True,-2.884646253736588,2.884646253736588,False
+ACH-000762,YD-38,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.3229166666666667,repair-low / removal-high,False,-3.096101934983947,3.096101934983947,False
+ACH-000769,LK-2,Lung,Non-Small Cell Lung Cancer,0.5041666666666667,repair-low / removal-high,False,-3.7752405699834135,3.7752405699834135,False
+ACH-000778,HSC-3,Head and Neck,Head and Neck Squamous Cell Carcinoma,0.7354166666666667,repair-low / removal-high,False,-4.560307175911385,4.560307175911385,False
+ACH-000781,NCI-H2023,Lung,Non-Small Cell Lung Cancer,0.1520833333333333,repair-high / removal-low,False,-2.6612954137638107,2.6612954137638107,False
+ACH-000810,SK-MEL-30,Skin,Melanoma,0.4041666666666667,repair-high / removal-low,False,-2.7106956532069333,2.7106956532069333,False
+ACH-000822,SK-MEL-24,Skin,Melanoma,0.1354166666666666,repair-high / removal-low,False,-3.69431436801968,3.69431436801968,False
+ACH-000833,RH-30,Soft Tissue,Rhabdomyosarcoma,0.9895833333333334,repair-high / removal-low,False,-2.3887312766952498,2.3887312766952498,True
+ACH-000879,MFE-296,Uterus,Endometrial Carcinoma,0.9520833333333332,repair-high / removal-high,True,-3.583017252627759,3.583017252627759,False
+ACH-000898,SNU-719,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.15625,repair-low / removal-low,False,-3.027642225420208,3.027642225420208,False
+ACH-000905,5637,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.9833333333333332,repair-high / removal-high,True,-2.367859178985717,2.367859178985717,False
+ACH-000941,HEC-1-B,Uterus,Endometrial Carcinoma,0.0729166666666666,repair-low / removal-low,False,-3.1233479184892703,3.1233479184892703,False
+ACH-000945,NCI-H650,Lung,Non-Small Cell Lung Cancer,0.2645833333333333,repair-low / removal-low,False,-3.035670085496404,3.035670085496404,False
+ACH-000950,LoVo,Bowel,Colorectal Adenocarcinoma,0.8125,repair-high / removal-high,True,-3.5467038926943166,3.5467038926943166,False
+ACH-000968,COLO 792,Skin,Melanoma,0.2791666666666667,repair-high / removal-low,False,-3.752964178320073,3.752964178320073,False
+ACH-000974,SNG-M,Uterus,Endometrial Carcinoma,0.9333333333333332,repair-high / removal-high,True,-3.510261724387017,3.510261724387017,False
+ACH-000977,LNCaP clone FGC,Prostate,Prostate Adenocarcinoma,0.2375,repair-low / removal-high,False,-3.888680273636217,3.888680273636217,False
+ACH-000985,LS411N,Bowel,Colorectal Adenocarcinoma,0.4770833333333333,repair-high / removal-low,False,-2.6143412077223886,2.6143412077223886,False
+ACH-001306,8305C,Thyroid,Anaplastic Thyroid Cancer,0.675,repair-high / removal-high,True,-2.697309746863469,2.697309746863469,False
+ACH-000011,253J,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.41875,repair-low / removal-low,False,-2.839806981029232,2.839806981029232,False
+ACH-000042,Panc 02.03,Pancreas,Pancreatic Adenocarcinoma,0.2895833333333333,repair-high / removal-low,False,-2.208022359397096,2.208022359397096,False
+ACH-000052,A-673,Bone,Ewing Sarcoma,0.9395833333333332,repair-high / removal-high,True,-2.345692702838703,2.345692702838703,True
+ACH-000060,Panc 10.05,Pancreas,Pancreatic Adenocarcinoma,0.5875,repair-high / removal-high,True,-2.770789054899691,2.770789054899691,False
+ACH-000139,Panc 03.27,Pancreas,Pancreatic Adenocarcinoma,0.9458333333333332,repair-high / removal-high,True,-3.034717057462688,3.034717057462688,False
+ACH-000211,Daoy,CNS/Brain,Embryonal Tumor,0.8666666666666667,repair-low / removal-high,False,-2.8169916392869285,2.8169916392869285,False
+ACH-000277,HCC1419,Breast,Invasive Breast Carcinoma,0.0145833333333333,repair-low / removal-low,False,-2.619810652447002,2.619810652447002,False
+ACH-000324,JHOC-5,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.2729166666666666,repair-low / removal-low,False,-3.2763038652572534,3.2763038652572534,False
+ACH-000544,OE21,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.6375,repair-low / removal-high,False,-3.958913159798122,3.958913159798122,False
+ACH-000561,T.T,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.6416666666666667,repair-low / removal-high,False,-3.305738169908457,3.305738169908457,False
+ACH-000589,NCI-H1437,Lung,Non-Small Cell Lung Cancer,0.5270833333333333,repair-low / removal-high,False,-2.1597103175037478,2.1597103175037478,False
+ACH-000593,BC-3C,Bladder/Urinary Tract,Bladder Urothelial Carcinoma,0.6354166666666666,repair-high / removal-low,False,-2.928682900736236,2.928682900736236,False
+ACH-000605,TE-6,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.70625,repair-low / removal-high,False,-3.59718254507764,3.59718254507764,False
+ACH-000662,COR-L23,Lung,Non-Small Cell Lung Cancer,0.63125,repair-low / removal-high,False,-1.9849186696781764,1.9849186696781764,False
+ACH-000677,SW 1573,Lung,Non-Small Cell Lung Cancer,0.3708333333333333,repair-low / removal-low,False,-3.422061928718103,3.422061928718103,False
+ACH-000684,KMRC-1,Kidney,Renal Cell Carcinoma,0.3791666666666666,repair-low / removal-low,False,-3.049292303993225,3.049292303993225,False
+ACH-000716,TT2609-C02,Thyroid,Well-Differentiated Thyroid Cancer,0.45,repair-low / removal-high,False,-3.14923891147157,3.14923891147157,False
+ACH-000756,GI-1,CNS/Brain,Diffuse Glioma,0.9166666666666666,repair-low / removal-high,False,-3.435829884167504,3.435829884167504,False
+ACH-000765,WM983B,Skin,Melanoma,0.0354166666666666,repair-high / removal-low,False,-3.0242490644848163,3.0242490644848163,False
+ACH-000866,NCI-H1048,Lung,Lung Neuroendocrine Tumor,0.9125,repair-low / removal-high,False,-2.925079945146666,2.925079945146666,False
+ACH-000873,KYSE-270,Esophagus/Stomach,Esophageal Squamous Cell Carcinoma,0.6895833333333333,repair-high / removal-high,True,-2.0710189063321813,2.0710189063321813,False
+ACH-000888,NCI-H1793,Lung,Non-Small Cell Lung Cancer,0.0604166666666666,repair-high / removal-low,False,-2.4364100143533145,2.4364100143533145,False
+ACH-000913,ESS-1,Uterus,Uterine Sarcoma/Mesenchymal,0.9666666666666668,repair-high / removal-high,True,-3.765392876371946,3.765392876371946,False
+ACH-000916,NCI-H1573,Lung,Non-Small Cell Lung Cancer,0.5604166666666667,repair-high / removal-high,True,-3.4616238168368523,3.4616238168368523,False
+ACH-000948,23132/87,Esophagus/Stomach,Esophagogastric Adenocarcinoma,0.6791666666666667,repair-low / removal-high,False,-1.6535135926513564,1.6535135926513564,False
+ACH-000961,Ishikawa (Heraklio) 02 ER-,Uterus,Endometrial Carcinoma,0.5958333333333333,repair-low / removal-high,False,-3.2161814347787128,3.2161814347787128,False
+ACH-000984,HEC-6,Uterus,Endometrial Carcinoma,0.4520833333333333,repair-high / removal-low,False,-2.392196438222169,2.392196438222169,False
+ACH-001145,OC 316,Ovary/Fallopian Tube,Ovarian Epithelial Tumor,0.8375,repair-low / removal-high,False,-3.60404988396554,3.60404988396554,False

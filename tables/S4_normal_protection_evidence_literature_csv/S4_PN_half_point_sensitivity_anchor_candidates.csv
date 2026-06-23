@@ -1,0 +1,5 @@
+compound,PN_prior_0_1,raw_rubric_points_approx,minus_0p5_raw_points_PN,minus_0p5_grade,plus_0p5_raw_points_PN,plus_0p5_grade,interpretation
+Trolox,0.8,5.6,0.729,High,0.871,High,stable grade
+L-ergothioneine,0.86,6.02,0.789,High,0.931,High,stable grade
+Taurine,0.68,4.76,0.609,Moderate,0.751,High,borderline grade under half-point perturbation
+Benfotiamine,0.62,4.34,0.549,Moderate,0.691,Moderate,stable grade
