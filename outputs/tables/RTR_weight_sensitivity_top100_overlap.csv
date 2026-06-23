@@ -1,0 +1,5 @@
+score_definition,repair_preservation_weight,removal_vulnerability_weight,top_n,overlap_with_default_top100_n,overlap_with_default_top100_percent,interpretation
+default_combined_RTR_top100,default,default,100,100,100.0,reference set used in manuscript
+repair_preservation_weighted_overlay,0.7,0.3,100,63,63,"alternative component weighting; majority-core overlap, but exact context set is weight-sensitive"
+component_equal_weight_overlay_audit,0.5,0.5,100,74,74,audit row: equal weighting of decomposed component ranks; not the primary published combined RTR score
+removal_vulnerability_weighted_overlay,0.3,0.7,100,78,78,"alternative component weighting; majority-core overlap, but exact context set is weight-sensitive"
