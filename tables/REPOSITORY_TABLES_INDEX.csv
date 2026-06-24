@@ -1,4 +1,4 @@
-supplement,description,deliverable
+repository_table,description,deliverable
 S1,"Compound annotations, cytotoxic-vulnerable contexts, TP53 interaction, RTR decomposition, FDR details",S1_compound_annotations_contexts_TP53_RTR_FDR/ + S1_Table_*.xlsx
 S2,"Full 22-compound Cancer-Normal Evidence Table, Pair Readiness fields, direct-test gaps",S2_cancer_normal_evidence_table/ + S2_Table_*.xlsx
 S3,Curated ChEMBL normal-like assay audit,S3_ChEMBL_normal_like_assay_audit_csv/ + S3_Table_*.xlsx
