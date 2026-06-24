@@ -2,15 +2,14 @@
 
 Every repository table referenced in the manuscript (Repository Tables S1–S14) has an
 explicit, S-numbered deliverable in this folder. Multi-file tables are provided both as a
-folder of CSVs and as a single consolidated `.xlsx` workbook for journal upload.
+folder of CSVs and as a single consolidated `.xlsx` workbook for inclusion in the repository release.
 This dual packaging (per-table CSV folder plus a consolidated `.xlsx`) is
 intentional: the CSV folders preserve machine-readable per-file provenance,
-while the `.xlsx` workbooks are the single-file artifacts intended for journal
-supplementary upload. Some processed tables also appear under both
+while the `.xlsx` workbooks are the single-file artifacts intended for repository archive. Some processed tables also appear under both
 `outputs/tables/` (the copies used for the manuscript checks in
 `validate_repository.py`) and here under `tables/Sxx` (the S-numbered
 supplementary deliverables); this duplication is deliberate so that the
-reproducibility checks and the journal supplements each remain self-contained.
+reproducibility checks and the S-numbered supplementary tables in this repository each remain self-contained.
 See `REPOSITORY_TABLES_INDEX.csv` for the full mapping.
 
 | S# | Deliverable |
