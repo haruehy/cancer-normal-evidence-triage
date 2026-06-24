@@ -1,6 +1,6 @@
-# Supplementary tables (S1-S14)
+# Repository tables (S1-S14)
 
-Every repository table referenced in the manuscript (Repository S1 Table - S14 Table) has an
+Every repository table referenced in the manuscript (Repository Tables S1–S14) has an
 explicit, S-numbered deliverable in this folder. Multi-file tables are provided both as a
 folder of CSVs and as a single consolidated `.xlsx` workbook for journal upload.
 This dual packaging (per-table CSV folder plus a consolidated `.xlsx`) is
