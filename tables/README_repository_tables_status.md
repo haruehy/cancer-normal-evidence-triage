@@ -5,7 +5,7 @@ explicit, S-numbered deliverable in this folder. Multi-file tables are provided 
 folder of CSVs and as a single consolidated `.xlsx` workbook for inclusion in the repository release.
 This dual packaging (per-table CSV folder plus a consolidated `.xlsx`) is
 intentional: the CSV folders preserve machine-readable per-file provenance,
-while the `.xlsx` workbooks are the single-file artifacts intended for repository archive. Some processed tables also appear under both
+while the `.xlsx` workbooks are the single-file artifacts intended for repository release. Some processed tables also appear under both
 `outputs/tables/` (the copies used for the manuscript checks in
 `validate_repository.py`) and here under `tables/Sxx` (the S-numbered
 supplementary deliverables); this duplication is deliberate so that the
