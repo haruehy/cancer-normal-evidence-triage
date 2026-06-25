@@ -1,0 +1,6 @@
+Repair candidate,Removal axis,A_antagonism_prior,PairSI_with_A_penalty,PairSI_without_A_penalty,PairSI_delta_from_A,PairSI_interpretation
+taurine,KIF11 / kinesin / spindle,0.36,-0.335,0.025,-0.36,high-value risk test; do not call safe/selective without direct data
+trolox,KIF11 / kinesin / spindle,0.36,0.082,0.442,-0.36,priority validation candidate; missing curated TN must be measured directly
+benfotiamine,KIF11 / kinesin / spindle,0.36,-0.075,0.285,-0.36,high-value risk test; do not call safe/selective without direct data
+L-ergothioneine,KIF11 / kinesin / spindle,0.36,-0.334,0.026,-0.36,high-value risk test; do not call safe/selective without direct data
+taurine,PLK / Aurora / mitotic checkpoint,0.36,-0.703,-0.343,-0.36,"comparator axis with high TN concern; useful as stress test, not lead safety claim"

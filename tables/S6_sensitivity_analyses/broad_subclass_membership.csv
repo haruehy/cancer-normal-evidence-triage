@@ -1,0 +1,82 @@
+name,broad_subclass,moa
+7-nitroindazole,NO/NOS-related,nitric oxide synthase inhibitor
+asymmetrical-dimethylarginine,NO/NOS-related,nitric oxide synthase inhibitor
+diphenyleneiodonium,NO/NOS-related,nitric oxide synthase inhibitor
+GW-501516,PPAR/metabolic-stress,PPAR receptor agonist
+S26948,PPAR/metabolic-stress,PPAR receptor agonist
+ciprofibrate,PPAR/metabolic-stress,PPAR receptor agonist
+clofibrate,PPAR/metabolic-stress,PPAR receptor agonist
+fenofibrate,PPAR/metabolic-stress,PPAR receptor agonist
+oleoylethanolamide,PPAR/metabolic-stress,"cannabinoid receptor agonist, glucose dependent insulinotropic receptor agonist, potassium channel blocker, PPAR receptor agonist"
+AM-404,anti-inflammatory/COX/LOX/NFkB/TNF,"cyclooxygenase inhibitor, FAAH inhibitor, TRPV antagonist"
+BAY-11-7082,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+BAY-11-7085,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+BMS-345541,anti-inflammatory/COX/LOX/NFkB/TNF,IKK inhibitor
+EVP4593,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+FK-3311,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+FR-122047,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+GSK-3-inhibitor-IX,anti-inflammatory/COX/LOX/NFkB/TNF,"glycogen synthase kinase inhibitor, lipoxygenase inhibitor"
+IKK-16,anti-inflammatory/COX/LOX/NFkB/TNF,IKK inhibitor
+IKK-2-inhibitor-V,anti-inflammatory/COX/LOX/NFkB/TNF,"IKK inhibitor, NFkB pathway inhibitor"
+Ro-106-9920,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+TPCA-1,anti-inflammatory/COX/LOX/NFkB/TNF,IKK inhibitor
+acetylsalicylsalicylic-acid,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+amfenac,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+aspirin,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+baicalein,anti-inflammatory/COX/LOX/NFkB/TNF,lipoxygenase inhibitor
+betamethasone-dipropionate,anti-inflammatory/COX/LOX/NFkB/TNF,anti-inflammatory agent
+bindarit,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+caffeic-acid,anti-inflammatory/COX/LOX/NFkB/TNF,"HIV integrase inhibitor, lipoxygenase inhibitor, nitric oxide production inhibitor, tumor necrosis factor production inhibitor"
+curcumin,anti-inflammatory/COX/LOX/NFkB/TNF,"cyclooxygenase inhibitor, histone acetyltransferase inhibitor, lipoxygenase inhibitor, NFkB pathway inhibitor"
+hypoestoxide,anti-inflammatory/COX/LOX/NFkB/TNF,IKK inhibitor
+indoprofen,anti-inflammatory/COX/LOX/NFkB/TNF,"cyclooxygenase inhibitor, prostanoid receptor antagonist"
+ketoprofen,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+meloxicam,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+metoxibutropate,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+naproxen,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+parthenolide,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+parthenolide-(-),anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+phenazone,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+phenylbutazone,anti-inflammatory/COX/LOX/NFkB/TNF,"cyclooxygenase inhibitor, prostanoid receptor antagonist"
+piroxicam,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+pomalidomide,anti-inflammatory/COX/LOX/NFkB/TNF,"angiogenesis inhibitor, tumor necrosis factor production inhibitor"
+pterostilbene,anti-inflammatory/COX/LOX/NFkB/TNF,"cyclooxygenase inhibitor, PPAR receptor agonist"
+ramifenazone,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+sulfasalazine,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+suxibuzone,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+tepoxalin,anti-inflammatory/COX/LOX/NFkB/TNF,"cyclooxygenase inhibitor, lipoxygenase inhibitor"
+tryptanthrin,anti-inflammatory/COX/LOX/NFkB/TNF,cyclooxygenase inhibitor
+tyloxapol,anti-inflammatory/COX/LOX/NFkB/TNF,NFkB pathway inhibitor
+beclomethasone-dipropionate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+betamethasone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+ciclesonide,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+clobetasol-propionate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+clocortolone-pivalate,glucocorticoid/corticosteroid,steroid
+deflazacort,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+desonide,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+dexamethasone-acetate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+difluprednate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+fludroxycortide,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+flumethasone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+flumethasone-pivalate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+fluocinolone-acetonide,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+fluorometholone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+fluticasone-propionate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+halcinonide,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+halobetasol-propionate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+methylprednisolone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+piretanide,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+prednisolone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+prednisolone-acetate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+prednisolone-hemisuccinate,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+prednisolone-tebutate,glucocorticoid/corticosteroid,anti-inflammatory agent
+rimexolone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+triamcinolone,glucocorticoid/corticosteroid,glucocorticoid receptor agonist
+triamcinolone-acetonide,glucocorticoid/corticosteroid,"glucocorticoid receptor agonist, immunosuppressant"
+roquinimex,other broad repair/protective,"angiogenesis inhibitor, tumor necrosis factor production inhibitor"
+benfotiamine,,antioxidant
+chlorogenic-acid,,antioxidant
+mesna,,antioxidant
+rutin,,"antioxidant, capillary stabilizing agent, nitric oxide scavenger"
+taurine,,antioxidant
+trolox,,antioxidant

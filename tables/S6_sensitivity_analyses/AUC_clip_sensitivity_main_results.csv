@@ -1,0 +1,9 @@
+analysis,AUC_version,group,n_values,n_cell_lines,n_drugs,median_value,mean_value,fraction_AUC_gt1_original,fraction_AUC_changed_by_clip,MW_AUC_repair_greater,p_value,FDR_within_AUC_clip_main
+group_distribution,original_AUC,broad repair/protective,31436.0,480,75.0,0.9674250222720211,1.0593477531495812,0.4498027738898079,0.4498027738898079,,,
+group_distribution,original_AUC,cytotoxic/removal-like,71916.0,480,157.0,0.812594802031675,0.7987158591948572,0.19052783803326104,0.19052783803326104,,,
+group_distribution,original_AUC,strict repair/protective,2545.0,480,6.0,1.13974582788894,1.1363274771941374,0.5952848722986247,0.5952848722986247,,,
+cell_line_median_repair_vs_cytotoxic,original_AUC,any repair/protective vs cytotoxic/removal-like,,480,,0.17823285925227206,0.19583865585775062,,,0.9863064236111111,5.503103982736537e-150,5.503103982736537e-150
+group_distribution,clip1_AUC,broad repair/protective,31436.0,480,75.0,0.9674250222720211,0.9217678405160402,0.4498027738898079,0.4498027738898079,,,
+group_distribution,clip1_AUC,cytotoxic/removal-like,71916.0,480,157.0,0.812594802031675,0.7481144980467548,0.19052783803326104,0.19052783803326104,,,
+group_distribution,clip1_AUC,strict repair/protective,2545.0,480,6.0,1.0,0.9461442335119883,0.5952848722986247,0.5952848722986247,,,
+cell_line_median_repair_vs_cytotoxic,clip1_AUC,any repair/protective vs cytotoxic/removal-like,,480,,0.15638370196752666,0.1567282235139384,,,0.98546875,1.6650480903733746e-150,3.330096180746749e-150

@@ -1,0 +1,5 @@
+rule_section,rule,purpose
+Accepted Tier A,clear human normal-like/primary/non-malignant keyword + viability/cytotoxicity keyword + no cancer/pathogen exclusion keyword,main normal-like ChEMBL evidence
+Accepted Tier B,clear non-human or normal-like supportive model such as rat/mouse neural precursor/L6 + viability/cytotoxicity keyword + no cancer/pathogen exclusion keyword,"supportive, not definitive human-normal evidence"
+Excluded,"pathogen/infection, cancer-cell, generic PubChem without clear normal cell, no viability/cytotoxicity keyword, or no clear normal-like keyword",avoid false normal-toxicity priors
+Activity interpretation,standard_relation > or activity_comment inactive treated as no-toxicity lower-bound rather than active toxicity,prevents false high-toxicity prior from inactive/inconclusive rows
