@@ -11,21 +11,57 @@ TABLES = OUT/'tables'
 FIGS = OUT/'figures'
 for d in [OUT,TABLES,FIGS]: d.mkdir(parents=True, exist_ok=True)
 
-PRISM_SECONDARY = DATA/'secondary-screen-dose-response-curve-parameters.csv'
+def first_existing(*paths):
+    """Return the first existing path; if none exists, return the first candidate.
+
+    This lets the same scripts work with either the lightweight repository
+    layout (data/) or the checksum/provenance layout recorded in S14
+    (data/raw/<resource>/...).
+    """
+    paths = [Path(p) for p in paths]
+    for p in paths:
+        if p.exists():
+            return p
+    return paths[0]
+
+PRISM_SECONDARY = first_existing(
+    DATA/'secondary-screen-dose-response-curve-parameters.csv',
+    DATA/'raw/PRISM/secondary-screen-dose-response-curve-parameters.csv',
+)
+PRISM_SECONDARY_LOGFC = first_existing(
+    DATA/'secondary-screen-replicate-collapsed-logfold-change.csv',
+    DATA/'secondary-screen-logfold-change.csv',
+    DATA/'raw/PRISM/secondary-screen-replicate-collapsed-logfold-change.csv',
+    DATA/'raw/PRISM/secondary-screen-logfold-change.csv',
+)
 CURATED_COMPOUND_ANNOTATIONS = DATA/'curated_compound_annotations.csv'
-PRISM_PRIMARY_MATRIX = DATA/'primary-screen-replicate-collapsed-logfold-change.csv'
-PRISM_PRIMARY_INFO = DATA/'primary-screen-replicate-collapsed-treatment-info.csv'
+PRISM_PRIMARY_MATRIX = first_existing(
+    DATA/'primary-screen-replicate-collapsed-logfold-change.csv',
+    DATA/'raw/PRISM/primary-screen-replicate-collapsed-logfold-change.csv',
+)
+PRISM_PRIMARY_INFO = first_existing(
+    DATA/'primary-screen-replicate-collapsed-treatment-info.csv',
+    DATA/'raw/PRISM/primary-screen-replicate-collapsed-treatment-info.csv',
+)
 MODEL = DATA/'Model.csv'
-MUTATION = DATA/'OmicsSomaticMutations.csv'
+MUTATION = first_existing(DATA/'OmicsSomaticMutations.csv', DATA/'raw/DepMap/OmicsSomaticMutations.csv')
 CRISPR = DATA/'CRISPRGeneEffect.csv'
-ALMANAC = DATA/'NCI_ALMANAC_combo_response.csv'
+ALMANAC = first_existing(
+    DATA/'NCI_ALMANAC_combo_response.csv',
+    DATA/'raw/NCI_ALMANAC/DTP_NCI60_ALMANAC_COMBO_SCORE.zip',
+    DATA/'raw/NCI_ALMANAC/DTP_NCI60_ALMANAC_COMBO_SCORE.xlsx',
+)
 DRUGCOMB = DATA/'DrugComb_combo_response.csv'
+CHEMBL_ALL_ROWS = first_existing(
+    ROOT/'tables/S3_ChEMBL_normal_like_assay_audit_csv/chembl_normal_like_assays_curated_all_rows.csv',
+    DATA/'chembl_normal_like_assays_curated_all_rows.csv',
+)
 
 STRICT_REPAIR_NAMES = {'taurine','trolox','benfotiamine','l-ergothioneine','ergothioneine'}
 BROAD_REPAIR_PATTERNS = [
- r'glucocorticoid|corticosteroid|dexamethasone|prednisolone|hydrocortisone|methylprednisolone|diflorasone',
- r'cyclooxygenase|cox\\b|lipoxygenase|lox\\b|anti[- ]?inflammatory|nf-?kb|ikk|tnf|prostaglandin|nsaid|ibuprofen|naproxen|diclofenac|celecoxib|indomethacin',
- r'\\bppar\\b|peroxisome proliferator|metabolic|benfotiamine|thiamine|rage|age',
+ r'glucocorticoid|corticosteroid|dexamethasone|prednisolone|hydrocortisone|methylprednisolone|diflorasone|clocortolone',
+ r'cyclooxygenase|cox\b|lipoxygenase|lox\b|anti[- ]?inflammatory|nf-?kb|ikk|tnf|prostaglandin|nsaid|ibuprofen|naproxen|diclofenac|celecoxib|indomethacin',
+ r'\bppar\b|peroxisome proliferator|metabolic|benfotiamine|thiamine|rage|age',
  r'antioxidant|radical scavenger|trolox|taurine|ergothioneine|glutathione|n-acetyl|ascorbic|vitamin e',
  r'nitric oxide|nos inhibitor|no scavenger|nitric oxide synthase']
 CYTOTOXIC_PATTERNS = [
@@ -34,18 +70,18 @@ CYTOTOXIC_PATTERNS = [
  r'proteasome|bortezomib|carfilzomib', r'apoptosis|BCL|MCL1|navitoclax|venetoclax',
  r'CHK|checkpoint|CHEK|ATR|ATM|WEE1', r'PLK|Aurora|AURK', r'HSP|HSP90']
 BROAD_SUBCLASS_RULES = [
- ('glucocorticoid/corticosteroid', r'glucocorticoid|corticosteroid|dexamethasone|prednisolone|hydrocortisone|methylprednisolone|diflorasone'),
- ('anti-inflammatory/COX/LOX/NFkB/TNF', r'cyclooxygenase|cox\\b|lipoxygenase|lox\\b|anti[- ]?inflammatory|nf-?kb|ikk|tnf|prostaglandin|nsaid|ibuprofen|naproxen|diclofenac|celecoxib|indomethacin'),
- ('PPAR/metabolic-stress', r'\\bppar\\b|peroxisome proliferator|metabolic|benfotiamine|thiamine|rage|age'),
+ ('glucocorticoid/corticosteroid', r'glucocorticoid|corticosteroid|dexamethasone|prednisolone|hydrocortisone|methylprednisolone|diflorasone|clocortolone'),
+ ('anti-inflammatory/COX/LOX/NFkB/TNF', r'cyclooxygenase|cox\b|lipoxygenase|lox\b|anti[- ]?inflammatory|nf-?kb|ikk|tnf|prostaglandin|nsaid|ibuprofen|naproxen|diclofenac|celecoxib|indomethacin'),
+ ('PPAR/metabolic-stress', r'\bppar\b|peroxisome proliferator|metabolic|benfotiamine|thiamine|rage|age'),
  ('antioxidant/radical-scavenger', r'antioxidant|radical scavenger|trolox|taurine|ergothioneine|glutathione|n-acetyl|ascorbic|vitamin e'),
  ('NO/NOS-related', r'nitric oxide|nos inhibitor|no scavenger|nitric oxide synthase')]
 REMOVAL_AXIS_PATTERNS = {
  'KIF11/kinesin/spindle':[r'KIF11|kinesin|ispinesib|filanesib|litronesib|SB[- ]?743921'],
  'microtubule/tubulin':[r'microtubule|tubulin|vincristine|vinblastine|vindesine|vinflunine|epothilone|paclitaxel|docetaxel'],
- 'PLK/Aurora/mitotic':[r'\\bPLK\\b|PLK1|Aurora|AURK|volasertib|alisertib|BI[- ]?2536|hesperadin'],
- 'CHK/DDR/checkpoint':[r'\\bCHK\\b|CHEK|prexasertib|LY2606368|PF[- ]?477736|CHIR[- ]?124|ATR|ATM|WEE1'],
- 'HSP/proteostasis':[r'\\bHSP\\b|HSP90|AUY922|alvespimycin|NMS[- ]?E973|geldanamycin'],
- 'BCL/apoptosis':[r'\\bBCL\\b|MCL1|navitoclax|venetoclax'],
+ 'PLK/Aurora/mitotic':[r'\bPLK\b|PLK1|Aurora|AURK|volasertib|alisertib|BI[- ]?2536|hesperadin'],
+ 'CHK/DDR/checkpoint':[r'\bCHK\b|CHEK|prexasertib|LY2606368|PF[- ]?477736|CHIR[- ]?124|ATR|ATM|WEE1'],
+ 'HSP/proteostasis':[r'\bHSP\b|HSP90|AUY922|alvespimycin|NMS[- ]?E973|geldanamycin'],
+ 'BCL/apoptosis':[r'\bBCL\b|MCL1|navitoclax|venetoclax'],
  'topoisomerase/DNA_damage':[r'topoisomerase|TOP1|TOP2|irinotecan|etoposide|doxorubicin'],
  'antifolate/nucleotide':[r'DHFR|TYMS|antifolate|pralatrexate|methotrexate|pemetrexed']}
 TARGET_GENES = ['KIF11','PLK1','AURKA','AURKB','CHEK1','CHEK2','HSP90AA1','HSP90AB1','BCL2L1','MCL1','BCL2','TUBA1B','TUBB','KIFC1','ATM','XIAP']

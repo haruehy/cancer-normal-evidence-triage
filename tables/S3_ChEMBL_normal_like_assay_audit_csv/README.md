@@ -10,12 +10,14 @@ This package contains the ChEMBL normal-like assay curation/audit tables used fo
   - Rows accepted as normal-like/supportive assays after curation.
 - `chembl_normal_like_assays_curated_excluded.csv`
   - Full excluded/ambiguous rows with `curation_reason`.
+- `chembl_normal_like_assays_curated_all_rows.csv`
+  - Combined accepted and excluded table used as the archived 3,283-row extraction-and-curation record.
 - `chembl_curated_normal_toxicity_summary_by_compound.csv`
   - Compound-level summary used for TN prior/normal-like toxicity interpretation.
 - `curation_rules.csv`
   - Curation rules.
 
-## Added exclusion-count tables
+## Exclusion-count tables
 
 - `chembl_exclusion_reason_counts_multilabel.csv`
   - Multi-label count of each exclusion reason. A row with multiple semicolon-separated reasons contributes to each reason.
@@ -24,18 +26,13 @@ This package contains the ChEMBL normal-like assay curation/audit tables used fo
 - `chembl_exclusion_reason_counts_by_compound.csv`
   - Multi-label exclusion reason counts by compound.
 
-## Note on the combined (all-rows) table
-
-The previously bundled `chembl_normal_like_assays_curated_all_rows.csv` was the
-simple concatenation of the accepted and excluded tables (3283 rows = 166
-accepted + 3117 excluded, identical 63-column schema). It has been removed to
-avoid redundant storage and can be reconstructed at any time by concatenating
-`chembl_normal_like_assays_curated_accepted.csv` and
-`chembl_normal_like_assays_curated_excluded.csv`.
-
 ## Important interpretation note
 
 Exclusion reasons are not mutually exclusive. Therefore, the multi-label reason counts can sum to more than the number of excluded rows.
 
 Total excluded rows in the full excluded table: 3117
 Total accepted rows in the accepted table: 166
+
+## Extraction provenance scope
+
+See `chembl37_extraction_query_notes.md` for the scope of the ChEMBL37 extraction provenance. The S3 audit is reproducible from the archived 3,283-row extracted set and curation rules, but the lightweight repository does not execute a live ChEMBL SQL/API extraction and does not retain the exact upstream SQL/API/web-interface query parameters.

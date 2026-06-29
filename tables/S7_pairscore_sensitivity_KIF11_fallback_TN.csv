@@ -1,6 +1,6 @@
 Repair candidate,Removal axis,PN_literature_prior,RC_removal_axis_proxy,PC_PRISM_cancer_preservation_penalty,TN_curated_axis_max,TN_fallback_heuristic,TN_source_for_current_score,A_antagonism_prior,PairSI_with_fallback_TN,PairSI_with_curated_TN_if_available,PairSI_delta_TN_choice,PairSI_interpretation
-taurine,KIF11 / kinesin / spindle,0.68,0.688,0.783,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,-0.335,,,high-value risk test; do not call safe/selective without direct data
-trolox,KIF11 / kinesin / spindle,0.8,0.688,0.486,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,0.082,,,priority validation candidate; missing curated TN must be measured directly
-benfotiamine,KIF11 / kinesin / spindle,0.62,0.688,0.463,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,-0.075,,,high-value risk test; do not call safe/selective without direct data
-L-ergothioneine,KIF11 / kinesin / spindle,0.86,0.688,0.962,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,-0.334,,,high-value risk test; do not call safe/selective without direct data
-taurine,PLK / Aurora / mitotic checkpoint,0.68,0.76,0.783,1.0,0.66,curated ChEMBL axis-level max TN used,0.36,-0.703,-0.363,0.34,"comparator axis with high TN concern; useful as stress test, not lead safety claim"
+taurine,KIF11 / kinesin / spindle,0.68,0.688,0.894,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,-0.446,,,high-value risk test; do not call safe/selective without direct data
+trolox,KIF11 / kinesin / spindle,0.8,0.688,0.424,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,0.144,,,priority validation candidate; missing curated TN must be measured directly
+benfotiamine,KIF11 / kinesin / spindle,0.62,0.688,0.527,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,-0.139,,,high-value risk test; do not call safe/selective without direct data
+L-ergothioneine,KIF11 / kinesin / spindle,0.86,0.688,0.997,,0.56,fallback heuristic used because curated ChEMBL TN is missing,0.36,-0.369,,,high-value risk test; do not call safe/selective without direct data
+taurine,PLK / Aurora / mitotic checkpoint,0.68,0.76,0.894,1.0,0.66,curated ChEMBL axis-level max TN used,0.36,-0.474,-0.814,0.34,"comparator axis with high TN concern; useful as stress test, not lead safety claim"

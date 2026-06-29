@@ -1,0 +1,5 @@
+definition_drug_key,definition_sources,definition_eqcl_groups,name,moa,target
+BRD-A17846016-001-13-9,primary_RTR_definition;secondary_RTR_definition,strict repair/protective,trolox,antioxidant,
+BRD-K07359318-001-03-9,primary_RTR_definition;secondary_RTR_definition,strict repair/protective,benfotiamine,antioxidant,AGER
+BRD-K26341917-001-01-3,primary_RTR_definition,strict repair/protective,L-ergothioneine,free radical scavenger,
+BRD-K51474575-001-10-4,primary_RTR_definition;secondary_RTR_definition,strict repair/protective,taurine,antioxidant,

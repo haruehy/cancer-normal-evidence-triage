@@ -1,15 +1,19 @@
 repository_table,description,deliverable
 S1,"Compound annotations, cytotoxic-vulnerable contexts, TP53 interaction, RTR decomposition, FDR details",S1_compound_annotations_contexts_TP53_RTR_FDR/ + S1_Table_*.xlsx
 S2,"Full 22-compound Cancer-Normal Evidence Table, Pair Readiness fields, direct-test gaps",S2_cancer_normal_evidence_table/ + S2_Table_*.xlsx
-S3,Curated ChEMBL normal-like assay audit,S3_ChEMBL_normal_like_assay_audit_csv/ + S3_Table_*.xlsx
+S3,"Curated ChEMBL normal-like assay audit, curation rules, and extraction-provenance scope note",S3_ChEMBL_normal_like_assay_audit_csv/ + S3_Table_*.xlsx
 S4,"Normal-protection literature priors, PN scoring, caveats, gaps",S4_normal_protection_evidence_literature_csv/ + S4_Table_*.xlsx
 S5,Representative clean RTR-high/RTR-low cell-line list,S5_representative_RTR_high_low_cell_lines.csv
-S6,"AUC clipping, strict-only limiting case, broad subclass-exclusion, RTR weight sensitivity",S6_sensitivity_analyses/ + S6_Table_*.xlsx
+S6,"AUC clipping, clipped-TP53 sensitivity, strict-only limiting case, broad subclass-exclusion, RTR weight sensitivity",S6_sensitivity_analyses/ + S6_Table_*.xlsx
 S7,Pair-score sensitivity to KIF11 fallback TN,S7_pairscore_sensitivity_KIF11_fallback_TN.csv
 S8,Pair-score sensitivity to antagonism penalty A,S8_pairscore_sensitivity_antagonism_penalty_A.csv
-S9,RTR top100 lineage-enrichment Fisher exact + BH-FDR,S9_RTR_top100_lineage_enrichment_fisher_bh.csv
+S9,RTR top100 lineage-enrichment Fisher exact + BH-FDR (one-sided primary; two-sided sensitivity),S9_RTR_top100_lineage_enrichment_fisher_bh.csv
 S10,Secondary/Primary coverage among the 578 evaluable cell lines,S10_secondary_primary_coverage_578.csv
 S11,DepMap CRISPR re-screening of removal candidate genes/axes,S11_depmap_crispr_rescreen/ + S11_Table_*.xlsx
-S12,PRISM drug-response re-screening of removal candidate axes,S12_prism_removal_axis_rescreen/ + S12_Table_*.xlsx
+S12,"PRISM drug-response re-screening of removal candidate axes, including archived Secondary logFC output provenance note",S12_prism_removal_axis_rescreen/ + S12_Table_*.xlsx
 S13,NCI-ALMANAC auxiliary combination analysis,S13_nci_almanac_combo/ + S13_Table_*.xlsx
 S14,Input-file provenance manifest,S14_input_file_provenance_manifest.csv
+S15,XIAP sex-composition balance check and sex-adjusted dependency summaries,S15_XIAP_sex_composition_check/ + S15_Table_XIAP_sex_composition_check.xlsx
+S16,"RTR combined-score robustness outputs: Secondary/Primary concordance, Primary-only Top100 enrichment, and dual-evaluable-only Top100 lineage enrichment",S16_RTR_combined_score_robustness/ + S16_Table_RTR_combined_score_robustness.xlsx
+Curation consistency audit summary,Support-term coverage summary for definition compounds in the released single-rater compound annotation table.,Curation consistency audit summary
+Curation consistency audit detail,"Per-definition-compound support-term audit; transparency check only, not inter-rater reliability.",Curation consistency audit detail

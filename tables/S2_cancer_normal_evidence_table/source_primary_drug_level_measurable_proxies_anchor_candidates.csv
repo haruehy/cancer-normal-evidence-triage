@@ -1,0 +1,5 @@
+drug_key,name,moa,target,eqcl_group,strict_repair,broad_repair,cytotoxic,n_cell_lines,median_logfc,mean_logfc,frac_logfc_ge0,frac_logfc_lt_minus1,frac_logfc_lt_minus05,primary_survival_preservation_score
+BRD-A17846016-001-13-9,trolox,antioxidant,,strict repair/protective,True,True,False,569,-1.238453949,-1.225843211378555,0.0087873462214411,0.6942003514938488,0.9279437609841829,-1.754710539509666
+BRD-K07359318-001-03-9,benfotiamine,antioxidant,AGER,strict repair/protective,True,True,False,538,-0.3525553349715,-0.3446837511818241,0.2174721189591078,0.0910780669144981,0.3364312267657992,-0.3121278256778197
+BRD-K26341917-001-01-3,L-ergothioneine,free radical scavenger,,strict repair/protective,True,True,False,567,0.384305917771,0.3931408902881523,0.890652557319224,0.0,0.0035273368606701,0.8296321964306119
+BRD-K51474575-001-10-4,taurine,antioxidant,,strict repair/protective,True,True,False,565,0.229818164009,0.219350431192125,0.7221238938053097,0.0035398230088495,0.0353982300884955,0.5882252436550176

@@ -1,0 +1,28 @@
+section,analysis,description,group,n_cell_lines,n_XIAP_available,Sex,n,total_group_n,proportion,test,table_top_F_top_M_bottom_F_bottom_M,odds_ratio,p_value,sex_categories,table_top_bottom_by_categories,chi2,dof,n_top,n_bottom,median_top_dependency,median_bottom_dependency,delta_top_minus_bottom,MW_AUC_top_more_dependent,mann_whitney_p_two_sided,term,coefficient,std_error,t,df
+analysis_definition,exact_group_definition,Top 116 and bottom 116 cell lines by RTR_score_combined_rank_0_1 among 578 combined RTR-evaluable cell lines; Bone and Soft Tissue lineages excluded before sex/XIAP summary.,,,,,,,,,,,,,,,,,,,,,,,,,,,
+analysis_definition,input_files,cell_line_RTR_scores_with_quadrants_and_variants.csv; RTR_combined_decomposition_578.csv; Model.csv; CRISPRGeneEffect.csv,,,,,,,,,,,,,,,,,,,,,,,,,,,
+group_counts_after_Bone_SoftTissue_exclusion,,,top,96,79,,,,,,,,,,,,,,,,,,,,,,,,
+group_counts_after_Bone_SoftTissue_exclusion,,,bottom,114,90,,,,,,,,,,,,,,,,,,,,,,,,
+sex_composition,all_cell_lines_after_exclusion,,top,,,Female,36,96,0.375,,,,,,,,,,,,,,,,,,,,
+sex_composition,all_cell_lines_after_exclusion,,top,,,Male,52,96,0.5416666666666666,,,,,,,,,,,,,,,,,,,,
+sex_composition,all_cell_lines_after_exclusion,,top,,,Unknown,8,96,0.08333333333333333,,,,,,,,,,,,,,,,,,,,
+sex_composition,all_cell_lines_after_exclusion,,bottom,,,Female,44,114,0.38596491228070173,,,,,,,,,,,,,,,,,,,,
+sex_composition,all_cell_lines_after_exclusion,,bottom,,,Male,65,114,0.5701754385964912,,,,,,,,,,,,,,,,,,,,
+sex_composition,all_cell_lines_after_exclusion,,bottom,,,Unknown,5,114,0.043859649122807015,,,,,,,,,,,,,,,,,,,,
+sex_composition,XIAP_available_after_exclusion,,top,,,Female,31,79,0.3924050632911392,,,,,,,,,,,,,,,,,,,,
+sex_composition,XIAP_available_after_exclusion,,top,,,Male,45,79,0.569620253164557,,,,,,,,,,,,,,,,,,,,
+sex_composition,XIAP_available_after_exclusion,,top,,,Unknown,3,79,0.0379746835443038,,,,,,,,,,,,,,,,,,,,
+sex_composition,XIAP_available_after_exclusion,,bottom,,,Female,34,90,0.37777777777777777,,,,,,,,,,,,,,,,,,,,
+sex_composition,XIAP_available_after_exclusion,,bottom,,,Male,53,90,0.5888888888888889,,,,,,,,,,,,,,,,,,,,
+sex_composition,XIAP_available_after_exclusion,,bottom,,,Unknown,3,90,0.03333333333333333,,,,,,,,,,,,,,,,,,,,
+sex_balance_test,all_cell_lines_after_exclusion_female_male_only,,,,,,,,,Fisher exact two-sided,"[36, 52, 44, 65]",1.0227272727272727,1.0,,,,,,,,,,,,,,,,
+sex_balance_test,all_cell_lines_after_exclusion_all_sex_categories,,,,,,,,,chi-square,,,0.49554068209659574,Female;Male;Unknown,"[[36, 52, 8], [44, 65, 5]]",1.4042116509221771,2,,,,,,,,,,,,
+sex_balance_test,XIAP_available_after_exclusion_female_male_only,,,,,,,,,Fisher exact two-sided,"[31, 45, 34, 53]",1.0738562091503268,0.8732788550229988,,,,,,,,,,,,,,,,
+sex_balance_test,XIAP_available_after_exclusion_all_sex_categories,,,,,,,,,chi-square,,,0.9627765546117001,Female;Male;Unknown,"[[31, 45, 3], [34, 53, 3]]",0.07586784924940429,2,,,,,,,,,,,,
+XIAP_dependency_mann_whitney,after_Bone_SoftTissue_exclusion_all_sex,,,,,,,,,,,,,,,,,79,90,0.05003845351279917,-0.01231505355336136,0.062353507066160524,0.6594936708860759,0.0003549176690114369,,,,,
+XIAP_dependency_mann_whitney,after_Bone_SoftTissue_exclusion_sex_known_only,,,,,,,,,,,,,,,,,76,87,0.04216529862511187,-0.011748325465243417,0.053913624090355286,0.6509376890502118,0.0009056830993242855,,,,,
+XIAP_dependency_mann_whitney,after_Bone_SoftTissue_exclusion_female_only,,,,,,,,,,,,,,,,,31,34,0.02720621727998272,-0.030795374686207765,0.05800159196619048,0.6394686907020873,0.05433742246365614,,,,,
+XIAP_dependency_mann_whitney,after_Bone_SoftTissue_exclusion_male_only,,,,,,,,,,,,,,,,,45,53,0.055909440478823416,-0.007601938643177979,0.06351137912200139,0.6587002096436059,0.0070438636716086194,,,,,
+XIAP_dependency_sex_adjusted_OLS,sex_known_only_after_Bone_SoftTissue_exclusion,,,,,,163,,,,,,0.5842244560478715,,,,,,,,,,,,intercept,-0.009285475245992372,0.01693386908512087,-0.5483374885749623,160
+XIAP_dependency_sex_adjusted_OLS,sex_known_only_after_Bone_SoftTissue_exclusion,,,,,,163,,,,,,0.0010939688834874111,,,,,,,,,,,,top_vs_bottom_adjusted_for_male,0.06103582194222406,0.018352959738832365,3.325666421698761,160
+XIAP_dependency_sex_adjusted_OLS,sex_known_only_after_Bone_SoftTissue_exclusion,,,,,,163,,,,,,0.8888812050593804,,,,,,,,,,,,male_vs_female,0.0026166963640459114,0.018698329911950518,0.13994278507052774,160

@@ -1,0 +1,4 @@
+analysis_group,definition_compounds_checked,definition_compounds_with_support_term,definition_compounds_without_support_term,support_term_coverage,audit_interpretation
+strict repair/protective,6,6,0,1.0,support-term consistency check only; not inter-rater reliability
+broad repair/protective,75,75,0,1.0,support-term consistency check only; not inter-rater reliability
+cytotoxic/removal-like,157,157,0,1.0,support-term consistency check only; not inter-rater reliability

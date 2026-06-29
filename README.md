@@ -1,56 +1,67 @@
 # Cancer--Normal Evidence Triage
 
-This repository contains the analysis scripts, curated annotation tables, processed outputs, and supplementary audit files supporting the manuscript:
+This repository contains the analysis scripts, curated annotation tables, processed outputs, and supplementary audit/provenance files supporting the manuscript:
 
 **Cancer--Normal Evidence Triage of Repair/Protection Candidates for Repair--Remove Separation Testing**
 
-The repository is intended to support reproducibility review. Large public raw datasets are not redistributed here and should be obtained from their original sources.
+The repository is intended to support reproducibility verification. Large public raw datasets are not redistributed here and should be obtained from their original sources.
 
 ## Repository structure
 
 ```text
-analysis/        Analysis scripts
+analysis/        Analysis scripts, including the pipeline wrapper and validator
 data/            Curated compound annotations and input-data notes
 outputs/         Processed tables used for manuscript checks
-tables/          Supplementary audit/provenance tables (S1-S14)
-run_all.py       Full pipeline wrapper; requires raw public datasets
-validate_repository.py  Lightweight validation of bundled repository files
-requirements.txt
+tables/          Repository Tables S1--S16 and audit/provenance deliverables
+requirements.txt Python package requirements
+LICENSE          MIT license
 ```
 
-Some processed tables intentionally appear in two places: under `outputs/tables/`
-(the copies exercised by the manuscript checks in `validate_repository.py`) and under
-`tables/Sxx` (the S-numbered repository-table deliverables).
-This duplication is deliberate so that the reproducibility checks and the repository-facing table packages each remain self-contained; it is not an accidental copy.
+Some processed tables intentionally appear in two places: under `outputs/tables/` (the copies exercised by the manuscript checks in `analysis/validate_repository.py`) and under `tables/Sxx` (the S-numbered repository-table deliverables). This duplication is deliberate so that the reproducibility checks and the repository-facing table packages each remain self-contained; it is not an accidental copy.
 
-## Key files
+## Environment setup
 
-```text
-data/curated_compound_annotations.csv
-outputs/tables/
-tables/S3_Table_ChEMBL_normal_like_assay_audit.xlsx
-tables/S4_Table_normal_protection_evidence_literature.xlsx
-tables/S6_sensitivity_analyses/RTR_weight_sensitivity_top100_overlap.csv
-tables/S14_input_file_provenance_manifest.csv
-```
-
-S3 documents the ChEMBL normal-like assay audit and exclusion-reason counts. S4 documents the literature-derived normal-protection prior scoring evidence and rationale, including the anchor-candidate half-point sensitivity summary. S6 includes RTR weight-sensitivity overlap checks. S14 documents input-file provenance, including releases, expected filenames, and checksum fields.
-
-## Quick validation
-
-Install dependencies:
+From the repository root, install the required Python packages with:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run the lightweight repository check:
+Then run the bundled validation check with:
 
 ```bash
-python validate_repository.py
+python analysis/validate_repository.py
 ```
 
-This validation checks the bundled curated annotation table, processed outputs, supplementary audit/provenance files, and a smoke test of the compound-annotation script. It does not require the large raw public datasets.
+## Key files
+
+```text
+analysis/run_all.py
+analysis/validate_repository.py
+data/curated_compound_annotations.csv
+outputs/tables/
+tables/README_repository_tables_status.md
+tables/REPOSITORY_TABLES_INDEX.csv
+tables/S14_input_file_provenance_manifest.csv
+```
+
+Repository Tables S1--S16 are listed in `tables/README_repository_tables_status.md` and mapped in `tables/REPOSITORY_TABLES_INDEX.csv`. S3 documents the ChEMBL normal-like assay audit and exclusion-reason counts. S4 documents the literature-derived normal-protection prior scoring evidence and rationale, including the anchor-candidate half-point sensitivity summary. S6 contains AUC-clipping sensitivity outputs, broad subclass-exclusion checks, and RTR weight-sensitivity overlap checks. S14 documents input-file provenance, including source labels, expected filenames, file sizes, and checksum fields. S15 contains the XIAP sex-composition check. S16 contains combined-RTR robustness outputs.
+
+## Reproducibility scope notes
+
+The bundled repository supports validation of manuscript-supporting outputs without redistributing large public raw datasets. Full local regeneration requires the external PRISM, DepMap, ChEMBL, and NCI-ALMANAC inputs listed in Repository Table S14. When the required raw or curated source files are placed under `data/` or the `data/raw/...` paths recorded in S14, the pipeline regenerates the combined RTR table, TP53 interaction summaries, PRISM removal-axis screens, NCI-ALMANAC auxiliary summaries, XIAP sex-composition check outputs, and final `P_C` descriptor. The lightweight validator checks bundled manuscript-supporting files and verifies that the rebuilt final `P_C` descriptor matches Repository Table S2.
+
+The literature-curated fields in Repository Tables S2 and S4, including `P_N` rubric assignments, cited evidence, scoring rationale, and caveats, are inspectable curation inputs rather than computational outputs regenerated by the pipeline. The source tables retain the `binary_repair_risk_rank` field as provenance, but the final `P_C` descriptor is computed from the refined PRISM-derived survival-preservation rank only. Repository Table S3 supports ChEMBL curation reproducibility from the archived 3,283-row extraction set; the bundled workflow does not execute a live ChEMBL extraction query. Figures are submitted separately; `outputs/tables/figure_source_map.csv` maps Figures 1--5 to source tables.
+
+## Quick validation
+
+After installing the packages listed in `requirements.txt`, run the lightweight repository check from the repository root:
+
+```bash
+python analysis/validate_repository.py
+```
+
+This validation checks the bundled curated annotation table, processed outputs, and repository-table deliverables. Optional smoke tests are attempted when the local Python environment has the required dependencies and inputs, but missing optional dependencies or raw public inputs are reported as skipped rather than as bundled-validation failures.
 
 ## Full pipeline regeneration
 
@@ -59,7 +70,7 @@ Full regeneration requires the public PRISM, DepMap, ChEMBL, and NCI-ALMANAC inp
 After the raw public input files have been added, run:
 
 ```bash
-python run_all.py
+python analysis/run_all.py
 ```
 
 Processed outputs are written to:
@@ -68,11 +79,15 @@ Processed outputs are written to:
 outputs/tables/
 ```
 
-If the raw public files are absent, `run_all.py` will stop with a message listing the missing files and will direct users to `validate_repository.py` for bundled-file validation.
+If the raw public files are absent, `analysis/run_all.py` stops with a message listing the missing files and directs users to `analysis/validate_repository.py` for bundled-file validation.
 
 ## Public input datasets
 
 The manuscript uses public resources including PRISM Repurposing drug-response data, DepMap CRISPR gene-effect data, DepMap model metadata, ChEMBL assay records, and NCI-ALMANAC/CellMiner combination data. These raw public datasets should be downloaded from their original sources and remain subject to the terms of those sources.
+
+## Curation-consistency audit
+
+The repository includes `analysis/12_curation_consistency_audit.py` and `tables/curation_consistency_audit/`, which check support-term coverage for definition compounds in the released compound annotation table. This audit is a transparency and internal-consistency check for single-rater curation; it is not an inter-rater reliability estimate.
 
 ## License
 

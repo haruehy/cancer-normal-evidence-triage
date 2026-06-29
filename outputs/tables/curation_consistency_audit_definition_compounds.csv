@@ -1,0 +1,239 @@
+analysis_group,drug_key,name,moa,target,support_term_found,matched_support_terms
+strict repair/protective,BRD-K07359318-001-03-9,benfotiamine,antioxidant,AGER,True,antioxidant;benfotiamine
+strict repair/protective,BRD-K47114202-001-14-6,chlorogenic-acid,antioxidant,SLC37A4,True,antioxidant;chlorogenic
+strict repair/protective,BRD-K49954789-001-02-9,mesna,antioxidant,,True,antioxidant;mesna
+strict repair/protective,BRD-K20482099-001-09-4,rutin,"antioxidant, capillary stabilizing agent, nitric oxide scavenger",AKR1C3,True,antioxidant
+strict repair/protective,BRD-K51474575-001-10-4,taurine,antioxidant,,True,antioxidant;taurine
+strict repair/protective,BRD-A17846016-001-13-9,trolox,antioxidant,,True,antioxidant;trolox
+broad repair/protective,BRD-K04430056-236-02-1,7-nitroindazole,nitric oxide synthase inhibitor,"NOS1, NOS2, NOS3",True,nitric oxide;nos
+broad repair/protective,BRD-K55462201-001-07-3,AM-404,"cyclooxygenase inhibitor, FAAH inhibitor, TRPV antagonist","CNR1, CNR2, FAAH, TRPV1",True,cyclooxygenase;trpv;faah
+broad repair/protective,BRD-K15025317-001-15-1,BAY-11-7082,NFkB pathway inhibitor,RELA,True,nf.?kb
+broad repair/protective,BRD-K48684885-001-04-2,BAY-11-7085,NFkB pathway inhibitor,NFKBIA,True,nf.?kb
+broad repair/protective,BRD-K13566078-001-02-3,BMS-345541,IKK inhibitor,"CHUK, IKBKB",True,\bikk\b
+broad repair/protective,BRD-K68395654-001-03-1,EVP4593,NFkB pathway inhibitor,,True,nf.?kb
+broad repair/protective,BRD-K38350380-001-01-8,FK-3311,cyclooxygenase inhibitor,PTGS2,True,cyclooxygenase
+broad repair/protective,BRD-K30990140-003-02-4,FR-122047,cyclooxygenase inhibitor,,True,cyclooxygenase
+broad repair/protective,BRD-K04923131-001-15-4,GSK-3-inhibitor-IX,"glycogen synthase kinase inhibitor, lipoxygenase inhibitor","GSK3A, GSK3B",True,lipoxygenase
+broad repair/protective,BRD-K14880289-001-02-2,GW-501516,PPAR receptor agonist,"PPARA, PPARD",True,ppar
+broad repair/protective,BRD-K14618467-001-04-6,IKK-16,IKK inhibitor,IKBKB,True,\bikk\b
+broad repair/protective,BRD-K74305673-001-06-2,IKK-2-inhibitor-V,"IKK inhibitor, NFkB pathway inhibitor",IKBKB,True,nf.?kb;\bikk\b
+broad repair/protective,BRD-A53134341-001-03-2,Ro-106-9920,NFkB pathway inhibitor,,True,nf.?kb
+broad repair/protective,BRD-K48826825-001-01-8,S26948,PPAR receptor agonist,PPARG,True,ppar
+broad repair/protective,BRD-K51575138-001-13-2,TPCA-1,IKK inhibitor,IKBKB,True,\bikk\b
+broad repair/protective,BRD-K46585355-001-14-3,acetylsalicylsalicylic-acid,cyclooxygenase inhibitor,,True,cyclooxygenase
+broad repair/protective,BRD-K82122102-323-01-1,amfenac,cyclooxygenase inhibitor,"PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-K11433652-001-17-0,aspirin,cyclooxygenase inhibitor,"AKR1C1, ASIC3, EDNRA, HSPA5, IKBKB, NFKB1, NFKB2, NFKBIA, PRKAA1, PRKAA2, PRKAB1, PRKAB2, PRKAG1, PRKAG2, PRKAG3, PTGS1, PTGS2, RPS6KA3, TP53",True,cyclooxygenase;nf.?kb
+broad repair/protective,BRD-K36269323-300-02-6,asymmetrical-dimethylarginine,nitric oxide synthase inhibitor,"NOS2, NOS3",True,nitric oxide;nos
+broad repair/protective,BRD-K72327355-001-14-7,baicalein,lipoxygenase inhibitor,"ALOX5, GLO1, PREP, SELL, SELP, TNF, XDH",True,lipoxygenase;tnf
+broad repair/protective,BRD-K97810537-001-13-6,beclomethasone-dipropionate,glucocorticoid receptor agonist,"GPR97, NR3C1",True,glucocorticoid
+broad repair/protective,BRD-A02180903-001-04-5,betamethasone,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-K58148589-001-03-6,betamethasone-dipropionate,anti-inflammatory agent,,True,anti.?inflamm;corticosteroid
+broad repair/protective,BRD-K36467523-001-02-8,bindarit,NFkB pathway inhibitor,"CCL2, CCL7, CCL8",True,nf.?kb
+broad repair/protective,BRD-K09900591-001-26-7,caffeic-acid,"HIV integrase inhibitor, lipoxygenase inhibitor, nitric oxide production inhibitor, tumor necrosis factor production inhibitor","ALOX5, MIF",True,lipoxygenase;tumor necrosis factor;nitric oxide
+broad repair/protective,BRD-K35245662-001-01-2,ciclesonide,glucocorticoid receptor agonist,"NR3C1, SERPINA6",True,glucocorticoid
+broad repair/protective,BRD-A49358627-001-14-6,ciprofibrate,PPAR receptor agonist,PPARA,True,ppar
+broad repair/protective,BRD-K10799896-001-26-2,clobetasol-propionate,glucocorticoid receptor agonist,"NR3C1, PLA2G1B",True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-K38003476-001-09-1,clocortolone-pivalate,steroid,"NR3C1, PLA2G1B",True,corticosteroid
+broad repair/protective,BRD-K45252063-001-13-6,clofibrate,PPAR receptor agonist,"LPL, PPARA",True,ppar
+broad repair/protective,BRD-K07572174-001-39-4,curcumin,"cyclooxygenase inhibitor, histone acetyltransferase inhibitor, lipoxygenase inhibitor, NFkB pathway inhibitor","APP, CA1, CA12, CA14, CA2, CA4, CA6, CA9, CYP3A4, DNMT3B, EP300, MMP13, MMP9, NOS2, PTGS1, PTGS2, XDH",True,cyclooxygenase;lipoxygenase;nf.?kb;nos
+broad repair/protective,BRD-K96006502-001-02-6,deflazacort,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid
+broad repair/protective,BRD-K21528677-001-02-8,desonide,glucocorticoid receptor agonist,"NR3C1, PLA2G1B",True,glucocorticoid
+broad repair/protective,BRD-K47635719-001-21-1,dexamethasone-acetate,glucocorticoid receptor agonist,,True,glucocorticoid
+broad repair/protective,BRD-K33720171-001-01-0,difluprednate,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid
+broad repair/protective,BRD-K65814004-003-02-9,diphenyleneiodonium,nitric oxide synthase inhibitor,"NOS2, NOS3",True,nitric oxide;nos
+broad repair/protective,BRD-K50388907-001-30-4,fenofibrate,PPAR receptor agonist,"MMP25, PPARA",True,ppar
+broad repair/protective,BRD-A49765801-001-04-1,fludroxycortide,glucocorticoid receptor agonist,"NR3C1, SERPINA6",True,glucocorticoid
+broad repair/protective,BRD-K61496577-001-20-2,flumethasone,glucocorticoid receptor agonist,"NR3C1, PLA2G1B",True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-A50064262-001-04-7,flumethasone-pivalate,glucocorticoid receptor agonist,"NR3C1, SERPINA6",True,glucocorticoid
+broad repair/protective,BRD-K94353609-001-21-6,fluocinolone-acetonide,glucocorticoid receptor agonist,"NR3C1, SERPINA6",True,glucocorticoid
+broad repair/protective,BRD-A13133631-001-04-0,fluorometholone,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid
+broad repair/protective,BRD-K62310379-001-10-5,fluticasone-propionate,glucocorticoid receptor agonist,"NR3C1, NR3C2, PGR, PLA2G4A",True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-A88138582-001-04-8,halcinonide,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-K65877271-001-01-8,halobetasol-propionate,glucocorticoid receptor agonist,"NR3C1, PLA2G1B",True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-A51571244-001-01-9,hypoestoxide,IKK inhibitor,"IKBKB, IL1B, TNF",True,\bikk\b;tnf
+broad repair/protective,BRD-A44090213-001-25-6,indoprofen,"cyclooxygenase inhibitor, prostanoid receptor antagonist","CXCR1, CXCR2, PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-A97739905-001-26-5,ketoprofen,cyclooxygenase inhibitor,"CXCR1, PTGS1, PTGS2, SLC5A8",True,cyclooxygenase
+broad repair/protective,BRD-A84174393-236-07-1,meloxicam,cyclooxygenase inhibitor,"PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-K35240538-001-26-2,methylprednisolone,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid
+broad repair/protective,BRD-A71725768-001-01-3,metoxibutropate,cyclooxygenase inhibitor,"PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-K59197931-001-04-5,naproxen,cyclooxygenase inhibitor,"PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-K66956375-001-11-3,oleoylethanolamide,"cannabinoid receptor agonist, glucose dependent insulinotropic receptor agonist, potassium channel blocker, PPAR receptor agonist","CNR1, GPR119, GPR55, PPARA",True,ppar;cannabinoid
+broad repair/protective,BRD-K98548675-001-05-9,parthenolide,NFkB pathway inhibitor,,True,nf.?kb
+broad repair/protective,BRD-K34851558-001-02-3,parthenolide-(-),NFkB pathway inhibitor,HDAC1,True,nf.?kb
+broad repair/protective,BRD-K46937689-001-15-0,phenazone,cyclooxygenase inhibitor,"PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-K10843433-001-22-7,phenylbutazone,"cyclooxygenase inhibitor, prostanoid receptor antagonist","PTGIS, PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-K87990216-001-10-2,piretanide,glucocorticoid receptor agonist,"SLC12A1, SLC12A2",True,glucocorticoid
+broad repair/protective,BRD-A57382968-001-29-0,piroxicam,cyclooxygenase inhibitor,"PTGS1, PTGS2",True,cyclooxygenase
+broad repair/protective,BRD-A12994259-001-02-1,pomalidomide,"angiogenesis inhibitor, tumor necrosis factor production inhibitor","CRBN, PTGS2, TNF",True,tnf;tumor necrosis factor
+broad repair/protective,BRD-A27887842-001-04-0,prednisolone,glucocorticoid receptor agonist,"NR3C1, NR3C2, SERPINA6",True,glucocorticoid
+broad repair/protective,BRD-A01643550-001-04-9,prednisolone-acetate,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid
+broad repair/protective,BRD-A78391468-001-02-8,prednisolone-hemisuccinate,glucocorticoid receptor agonist,NR3C1,True,glucocorticoid
+broad repair/protective,BRD-A53151380-001-01-2,prednisolone-tebutate,anti-inflammatory agent,,True,anti.?inflamm
+broad repair/protective,BRD-K53097745-001-01-5,pterostilbene,"cyclooxygenase inhibitor, PPAR receptor agonist",PTGS2,True,cyclooxygenase;ppar
+broad repair/protective,BRD-K85333151-003-13-4,ramifenazone,cyclooxygenase inhibitor,,True,cyclooxygenase
+broad repair/protective,BRD-K31627533-001-09-5,rimexolone,glucocorticoid receptor agonist,"NR3C1, SERPINA6",True,glucocorticoid
+broad repair/protective,BRD-K03384561-001-02-7,roquinimex,"angiogenesis inhibitor, tumor necrosis factor production inhibitor",,True,tumor necrosis factor
+broad repair/protective,BRD-K10670311-001-15-5,sulfasalazine,cyclooxygenase inhibitor,"ACAT1, ALOX5, CHUK, IKBKB, PLA2G1B, PPARG, PTGS1, PTGS2, SLC46A1, SLC7A11, TBXAS1",True,cyclooxygenase;ppar
+broad repair/protective,BRD-K78815826-001-14-6,suxibuzone,cyclooxygenase inhibitor,,True,cyclooxygenase
+broad repair/protective,BRD-K89714990-001-01-5,tepoxalin,"cyclooxygenase inhibitor, lipoxygenase inhibitor",ALOX5,True,cyclooxygenase;lipoxygenase
+broad repair/protective,BRD-K77554836-001-11-6,triamcinolone,glucocorticoid receptor agonist,"NR3C1, SERPINA6",True,glucocorticoid;corticosteroid
+broad repair/protective,BRD-A92439610-001-05-7,triamcinolone-acetonide,"glucocorticoid receptor agonist, immunosuppressant",NR3C1,True,glucocorticoid;corticosteroid;nos
+broad repair/protective,BRD-K76973696-001-12-6,tryptanthrin,cyclooxygenase inhibitor,IDO1,True,cyclooxygenase
+broad repair/protective,BRD-U25960968-000-01-9,tyloxapol,NFkB pathway inhibitor,"LPL, NFKB2",True,nf.?kb
+cytotoxic/removal-like,BRD-K63784565-001-06-2,10-hydroxycamptothecin,topoisomerase inhibitor,TOP1,True,topoisomerase;camptothecin
+cytotoxic/removal-like,BRD-K61734568-003-02-1,"2,3-DCPE",Bcl-XL downregulator,BCL2L1,True,bcl
+cytotoxic/removal-like,BRD-K08703257-001-12-1,3-amino-benzamide,PARP inhibitor,PARP1,True,\bparp\b
+cytotoxic/removal-like,BRD-K08703257-001-13-9,3-amino-benzamide,PARP inhibitor,PARP1,True,\bparp\b
+cytotoxic/removal-like,BRD-K56301217-001-07-4,ABT-737,BCL inhibitor,"BCL2, BCL2L1, BCL2L2",True,bcl
+cytotoxic/removal-like,BRD-K91623615-001-05-0,ABT-751,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K00615600-001-12-9,AG-14361,PARP inhibitor,PARP1,True,\bparp\b
+cytotoxic/removal-like,BRD-K64925568-001-01-8,AMG-232,MDM inhibitor,MDM2,True,\bmdm\b
+cytotoxic/removal-like,BRD-K85014146-001-02-5,AZD2461,PARP inhibitor,,True,\bparp\b
+cytotoxic/removal-like,BRD-K20468903-001-01-6,BNC105,tubulin polymerization inhibitor,,True,tubulin
+cytotoxic/removal-like,BRD-K59929863-001-01-9,CB-10-277,DNA synthesis inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K79584249-001-01-3,CGM097,MDM inhibitor,MDM2,True,\bmdm\b
+cytotoxic/removal-like,BRD-K23363278-001-02-1,CYT-997,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K26997899-001-02-2,D-64131,microtubule inhibitor,TUBB,True,microtubule
+cytotoxic/removal-like,BRD-K05444225-001-01-7,E7449,PARP inhibitor,"PARP1, PARP2, TNKS, TNKS2",True,\bparp\b
+cytotoxic/removal-like,BRD-K18163608-001-05-6,HA14-1,BCL inhibitor,BCL2,True,bcl
+cytotoxic/removal-like,BRD-K29968218-001-03-2,KX2-391,"src inhibitor, tubulin polymerization inhibitor",SRC,True,tubulin
+cytotoxic/removal-like,BRD-K60230970-001-17-5,MG-132,proteasome inhibitor,PSMB1,True,proteasome
+cytotoxic/removal-like,BRD-K99170882-001-04-3,NSC-319726,p53 activator,,True,\bp53\b
+cytotoxic/removal-like,BRD-K60446698-001-01-2,ONX-0914,proteasome inhibitor,,True,proteasome
+cytotoxic/removal-like,BRD-K92991072-001-04-9,PAC-1,caspase activator,CASP3,True,caspase;casp[0-9]
+cytotoxic/removal-like,BRD-A93477898-001-04-2,PETCM,caspase activator,CASP3,True,caspase;casp[0-9]
+cytotoxic/removal-like,BRD-K11853856-001-01-7,PJ-34,PARP inhibitor,"EEF2, PARP1, PARP15, PARP3",True,\bparp\b
+cytotoxic/removal-like,BRD-K00317371-001-06-1,RITA,MDM inhibitor,MDM2,True,\bmdm\b
+cytotoxic/removal-like,BRD-K89561498-001-01-7,SN-38,topoisomerase inhibitor,TOP1,True,topoisomerase
+cytotoxic/removal-like,BRD-K09426783-300-01-0,TAS-103,topoisomerase inhibitor,TOP1,True,topoisomerase
+cytotoxic/removal-like,BRD-K20958582-001-01-4,TH-302,DNA alkylating agent,,True,alkylat;dna
+cytotoxic/removal-like,BRD-K28360340-001-08-3,TW-37,BCL inhibitor,"BCL2, BCL2L1, MCL1",True,bcl;mcl
+cytotoxic/removal-like,BRD-K26712974-001-01-5,VX-765,caspase inhibitor,CASP1,True,caspase;casp[0-9]
+cytotoxic/removal-like,BRD-K79131256-001-17-9,albendazole,tubulin polymerization inhibitor,"TUBA1A, TUBB, TUBB4B",True,tubulin
+cytotoxic/removal-like,BRD-K67043667-001-26-4,altretamine,DNA synthesis inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K56334280-001-05-1,amonafide,topoisomerase inhibitor,"TOP2A, TOP2B",True,topoisomerase
+cytotoxic/removal-like,BRD-K68346641-001-01-4,amsacrine,topoisomerase inhibitor,"KCNH2, TOP2A",True,topoisomerase
+cytotoxic/removal-like,BRD-K91370081-001-25-1,anisomycin,DNA synthesis inhibitor,"NHP2L1, RPL10L, RPL11, RPL13A, RPL15, RPL19, RPL23, RPL23A, RPL26L1, RPL3, RPL37, RPL8, RSL24D1",True,dna
+cytotoxic/removal-like,BRD-K13112821-001-17-4,artemisinin,DNA synthesis inhibitor,CYP2B6,True,dna
+cytotoxic/removal-like,BRD-K54634444-001-05-9,artesunate,DNA synthesis inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K87036601-001-01-6,azodicarbonamide,DNA synthesis inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K17068645-003-04-2,bendamustine,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K28061410-001-06-6,beta-lapachone,topoisomerase inhibitor,TOP1,True,topoisomerase
+cytotoxic/removal-like,BRD-K45401373-001-20-9,betulinic-acid,"apoptosis stimulant, NFkB pathway inhibitor",GPBAR1,True,apoptosis
+cytotoxic/removal-like,BRD-K88510285-001-11-1,bortezomib,"NFkB pathway inhibitor, proteasome inhibitor","PSMA1, PSMA2, PSMA3, PSMA4, PSMA5, PSMA6, PSMA7, PSMA8, PSMB1, PSMB10, PSMB11, PSMB2, PSMB3, PSMB4, PSMB5, PSMB6, PSMB7, PSMB8, PSMB9, PSMD1, PSMD2, RELA",True,proteasome;mcl
+cytotoxic/removal-like,BRD-K88510285-001-17-8,bortezomib,"NFkB pathway inhibitor, proteasome inhibitor","PSMA1, PSMA2, PSMA3, PSMA4, PSMA5, PSMA6, PSMA7, PSMA8, PSMB1, PSMB10, PSMB11, PSMB2, PSMB3, PSMB4, PSMB5, PSMB6, PSMB7, PSMB8, PSMB9, PSMD1, PSMD2, RELA",True,proteasome;mcl
+cytotoxic/removal-like,BRD-K23204545-001-16-4,busulfan,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K06858286-001-01-3,cabazitaxel,microtubule inhibitor,"TUBA4A, TUBB, TUBB1",True,microtubule;tax
+cytotoxic/removal-like,BRD-K37890730-001-15-1,camptothecin,topoisomerase inhibitor,TOP1,True,topoisomerase;camptothecin
+cytotoxic/removal-like,BRD-K61192372-001-08-9,capecitabine,"DNA synthesis inhibitor, thymidylate synthase inhibitor",TYMS,True,dna
+cytotoxic/removal-like,BRD-K90947825-001-02-7,carboplatin,"DNA alkylating agent, DNA inhibitor",,True,alkylat;dna
+cytotoxic/removal-like,BRD-K15179879-001-03-2,carfilzomib,proteasome inhibitor,"PSMA1, PSMA2, PSMA3, PSMA4, PSMA5, PSMA6, PSMA7, PSMA8, PSMB1, PSMB10, PSMB11, PSMB2, PSMB3, PSMB4, PSMB5, PSMB6, PSMB7, PSMB8, PSMB9",True,proteasome
+cytotoxic/removal-like,BRD-K36234266-001-09-8,carmustine,"DNA alkylating agent, DNA inhibitor",GSR,True,alkylat;dna
+cytotoxic/removal-like,BRD-K29458283-001-29-9,chlorambucil,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K69172251-001-08-9,cisplatin,"DNA alkylating agent, DNA synthesis inhibitor",XIAP,True,iap;alkylat;dna
+cytotoxic/removal-like,BRD-K00259736-001-16-4,colchicine,microtubule inhibitor,"GLRA1, GLRA2, TUBA1A, TUBA1B, TUBA1C, TUBA3C, TUBA3D, TUBA3E, TUBA4A, TUBB, TUBB1, TUBB2A, TUBB2B, TUBB3, TUBB4A, TUBB4B, TUBB6, TUBB8",True,microtubule
+cytotoxic/removal-like,BRD-K61195623-001-01-4,combretastatin-A-4,tubulin polymerization inhibitor,,True,tubulin
+cytotoxic/removal-like,BRD-K67536197-003-11-4,cyclocytidine,"DNA synthesis inhibitor, RNA synthesis inhibitor",,True,dna
+cytotoxic/removal-like,BRD-A09722536-002-18-0,cyclophosphamide,DNA alkylating agent,"CYP2A6, CYP2B6, CYP2C18, CYP2C19, CYP2C8, CYP2C9, CYP2D6, CYP3A4, CYP3A5, CYP3A7",True,alkylat;dna
+cytotoxic/removal-like,BRD-K47000838-001-01-6,cytochalasin-b,microtubule inhibitor,ACTB,True,microtubule
+cytotoxic/removal-like,BRD-K35520305-001-16-9,dacarbazine,DNA alkylating agent,"PGD, POLA2",True,alkylat;dna
+cytotoxic/removal-like,BRD-K35520305-001-17-7,dacarbazine,DNA alkylating agent,"PGD, POLA2",True,alkylat;dna
+cytotoxic/removal-like,BRD-K43389675-001-02-1,daunorubicin,"RNA synthesis inhibitor, topoisomerase inhibitor","TOP2A, TOP2B",True,topoisomerase
+cytotoxic/removal-like,BRD-K43389675-003-20-9,daunorubicin,"RNA synthesis inhibitor, topoisomerase inhibitor","TOP2A, TOP2B",True,topoisomerase
+cytotoxic/removal-like,BRD-K59325863-001-02-8,delanzomib,proteasome inhibitor,"CMA1, CTSG, CYP3A4, ELANE",True,proteasome
+cytotoxic/removal-like,BRD-K07265709-003-05-6,dexrazoxane,"chelating agent, topoisomerase inhibitor","TOP2A, TOP2B",True,topoisomerase
+cytotoxic/removal-like,BRD-K68502831-001-01-2,dianhydrogalactitol,DNA alkylating agent,,True,alkylat;dna
+cytotoxic/removal-like,BRD-K37723606-001-01-5,dioscin,apoptosis stimulant,CXCR3,True,apoptosis
+cytotoxic/removal-like,BRD-K30577245-001-05-0,docetaxel,tubulin polymerization inhibitor,"BCL2, MAP2, MAP4, MAPT, NR1I2, TUBB, TUBB1",True,tubulin;bcl;tax
+cytotoxic/removal-like,BRD-K30577245-341-01-9,docetaxel,tubulin polymerization inhibitor,"BCL2, MAP2, MAP4, MAPT, NR1I2, TUBB, TUBB1",True,tubulin;bcl;tax
+cytotoxic/removal-like,BRD-K78567475-001-01-4,dolastatin-10,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K92093830-003-30-8,doxorubicin,topoisomerase inhibitor,TOP2A,True,topoisomerase
+cytotoxic/removal-like,BRD-K61314889-001-04-4,endo-IWR-1,PARP inhibitor,"TNKS, TNKS2",True,\bparp\b
+cytotoxic/removal-like,BRD-K32007074-001-02-9,enocitabine,DNA synthesis inhibitor,"CMPK1, RRM1, TYMS",True,dna
+cytotoxic/removal-like,BRD-K04548931-003-16-5,epirubicin,topoisomerase inhibitor,"CHD1, TOP2A",True,topoisomerase
+cytotoxic/removal-like,BRD-K71823332-001-03-7,epothilone-a,microtubule stabilizing agent,,True,microtubule
+cytotoxic/removal-like,BRD-K68164687-001-01-6,epothilone-b,"microtubule stabilizing agent, tubulin polymerization inhibitor","TUBA1A, TUBA1B, TUBA1C, TUBA3C, TUBA4A, TUBA8, TUBB, TUBB1, TUBB3, TUBB4A, TUBB4B",True,tubulin;microtubule
+cytotoxic/removal-like,BRD-K52762805-001-01-2,epothilone-d,"microtubule stabilizing agent, tubulin polymerization inhibitor","TUBA1A, TUBA1B, TUBA1C, TUBA3C, TUBA4A, TUBA8, TUBB, TUBB1, TUBB3, TUBB4A, TUBB4B",True,tubulin;microtubule
+cytotoxic/removal-like,BRD-A70858459-001-01-7,estramustine,DNA alkylating agent,"ESR1, ESR2, MAP1A, MAP2",True,alkylat;dna
+cytotoxic/removal-like,BRD-K00077635-304-01-2,estramustine-phosphate,"DNA synthesis inhibitor, microtubule inhibitor","ESR1, ESR2, MAP1A, MAP2",True,microtubule;dna
+cytotoxic/removal-like,BRD-K37798499-001-27-2,etoposide,topoisomerase inhibitor,"TOP2A, TOP2B",True,topoisomerase
+cytotoxic/removal-like,BRD-K72533376-001-01-2,etoposide-phosphate,topoisomerase inhibitor,TOP2A,True,topoisomerase
+cytotoxic/removal-like,BRD-K92150287-066-01-2,exatecan-mesylate,topoisomerase inhibitor,TOP1,True,topoisomerase
+cytotoxic/removal-like,BRD-K51318897-001-15-3,fenbendazole,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K89085489-001-23-2,fenretinide,"apoptosis stimulant, retinoid receptor agonist",RARA,True,apoptosis
+cytotoxic/removal-like,BRD-K61717546-001-05-0,fleroxacin,topoisomerase inhibitor,,True,topoisomerase
+cytotoxic/removal-like,BRD-K47832606-001-30-1,floxuridine,DNA synthesis inhibitor,TYMS,True,dna
+cytotoxic/removal-like,BRD-K86003836-001-10-5,flubendazole,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K06814349-304-01-9,fosbretabulin,"tubulin polymerization inhibitor, VE-cadherin antagonist",CDH5,True,tubulin
+cytotoxic/removal-like,BRD-K06814349-304-02-7,fosbretabulin,"tubulin polymerization inhibitor, VE-cadherin antagonist",CDH5,True,tubulin
+cytotoxic/removal-like,BRD-K08542803-001-02-3,gambogic-acid,caspase activator,BCL2,True,bcl;caspase
+cytotoxic/removal-like,BRD-K08542803-001-03-1,gambogic-acid,caspase activator,BCL2,True,bcl;caspase
+cytotoxic/removal-like,BRD-K99475619-001-01-2,genz-644282,topoisomerase inhibitor,TOP1,True,topoisomerase
+cytotoxic/removal-like,BRD-K19295594-015-14-3,gossypol,"BCL inhibitor, MCL1 inhibitor",BCL2,True,bcl;mcl
+cytotoxic/removal-like,BRD-K69650333-003-14-0,idarubicin,topoisomerase inhibitor,TOP2A,True,topoisomerase
+cytotoxic/removal-like,BRD-K62627508-001-01-5,idasanutlin,MDM inhibitor,"MDM2, TP53",True,\btp53\b;\bmdm\b
+cytotoxic/removal-like,BRD-A67097164-001-18-7,ifosfamide,DNA alkylating agent,"CYP2A6, CYP2B6, CYP2C18, CYP2C19, CYP2C8, CYP2C9, CYP3A4, CYP3A5, CYP3A7, PTGS1",True,alkylat;dna
+cytotoxic/removal-like,BRD-K74057757-001-01-9,indibulin,tubulin polymerization inhibitor,,True,tubulin
+cytotoxic/removal-like,BRD-K08547377-001-04-4,irinotecan,topoisomerase inhibitor,"TOP1, TOP1MT",True,topoisomerase
+cytotoxic/removal-like,BRD-K08547377-394-03-5,irinotecan,topoisomerase inhibitor,"TOP1, TOP1MT",True,topoisomerase
+cytotoxic/removal-like,BRD-K03601870-001-01-2,ixabepilone,microtubule stabilizing agent,"TUBA1A, TUBA1B, TUBA1C, TUBA3C, TUBA3D, TUBA3E, TUBA4A, TUBB, TUBB1, TUBB2A, TUBB2B, TUBB3, TUBB4A, TUBB4B, TUBB6, TUBB8",True,microtubule
+cytotoxic/removal-like,BRD-K78659596-001-03-9,ixazomib,proteasome inhibitor,,True,proteasome
+cytotoxic/removal-like,BRD-A66419424-001-02-4,ixazomib-citrate,proteasome inhibitor,,True,proteasome
+cytotoxic/removal-like,BRD-K26011976-001-01-0,licochalcone-a,topoisomerase inhibitor,PTPN1,True,topoisomerase
+cytotoxic/removal-like,BRD-K77987382-001-13-2,mebendazole,tubulin polymerization inhibitor,"TUBA1A, TUBB, TUBB4B",True,tubulin
+cytotoxic/removal-like,BRD-K12829205-003-02-8,mechlorethamine,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K87827419-001-16-8,melphalan,"DNA alkylating agent, DNA inhibitor",,True,alkylat;dna
+cytotoxic/removal-like,BRD-K52020312-001-26-8,metronidazole,DNA inhibitor,"CYP2C9, CYP3A4",True,dna
+cytotoxic/removal-like,BRD-A48237631-001-04-8,mitomycin-c,"DNA alkylating agent, DNA synthesis inhibitor",,True,alkylat;dna
+cytotoxic/removal-like,BRD-K21680192-300-14-4,mitoxantrone,topoisomerase inhibitor,TOP2A,True,topoisomerase
+cytotoxic/removal-like,BRD-K82746043-001-15-1,navitoclax,BCL inhibitor,"BCL2, BCL2L1, BCL2L2",True,bcl
+cytotoxic/removal-like,BRD-K82746043-001-19-3,navitoclax,BCL inhibitor,"BCL2, BCL2L1, BCL2L2",True,bcl
+cytotoxic/removal-like,BRD-K84466663-001-05-4,nelarabine,"DNA synthesis inhibitor, T cell inhibitor",POLA1,True,dna
+cytotoxic/removal-like,BRD-K51911221-001-01-2,nemorubicin,topoisomerase inhibitor,"TOP1, TOP2A",True,topoisomerase
+cytotoxic/removal-like,BRD-K79145628-001-05-5,nimorazole,bacterial DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K54955827-001-02-2,niraparib,PARP inhibitor,PARP1,True,\bparp\b
+cytotoxic/removal-like,BRD-K39467894-001-06-7,nithiamide,bacterial DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K12539581-001-23-7,nocodazole,tubulin polymerization inhibitor,HPGDS,True,tubulin
+cytotoxic/removal-like,BRD-A12230535-001-06-7,nutlin-3,MDM inhibitor,"MDM2, TP53",True,\btp53\b;\bmdm\b
+cytotoxic/removal-like,BRD-K15600710-066-04-1,obatoclax,BCL inhibitor,BCL2,True,bcl
+cytotoxic/removal-like,BRD-K15600710-066-05-8,obatoclax,BCL inhibitor,BCL2,True,bcl
+cytotoxic/removal-like,BRD-K02113016-001-15-4,olaparib,PARP inhibitor,"PARP1, PARP2",True,\bparp\b
+cytotoxic/removal-like,BRD-K02113016-001-19-6,olaparib,PARP inhibitor,"PARP1, PARP2",True,\bparp\b
+cytotoxic/removal-like,BRD-K43449605-001-01-0,oncrasin-1,apoptosis stimulant,,True,apoptosis
+cytotoxic/removal-like,BRD-A36331462-001-02-1,oprozomib,proteasome inhibitor,,True,proteasome
+cytotoxic/removal-like,BRD-K23925186-001-02-8,oridonin,BCL inhibitor,BCL2,True,bcl
+cytotoxic/removal-like,BRD-K78960041-001-05-7,oxaliplatin,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K52075715-001-06-7,oxibendazole,tubulin polymerization inhibitor,"TUBB, TUBB4B",True,tubulin
+cytotoxic/removal-like,BRD-K62008436-001-22-1,paclitaxel,tubulin polymerization inhibitor,"BCL2, MAP2, MAP4, MAPT, NR1I2, TLR4, TUBB, TUBB1",True,tubulin;bcl;tax
+cytotoxic/removal-like,BRD-K62008436-001-23-9,paclitaxel,tubulin polymerization inhibitor,"BCL2, MAP2, MAP4, MAPT, NR1I2, TLR4, TUBB, TUBB1",True,tubulin;bcl;tax
+cytotoxic/removal-like,BRD-K02407574-001-09-7,parbendazole,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K17026858-001-01-2,pibenzimol,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K99498722-001-02-6,plinabulin,tubulin polymerization inhibitor,,True,tubulin
+cytotoxic/removal-like,BRD-K47869605-001-32-0,podophyllotoxin,"microtubule inhibitor, tubulin polymerization inhibitor","IGF1R, TOP2A, TUBA4A, TUBB",True,tubulin;microtubule
+cytotoxic/removal-like,BRD-A55913614-316-09-6,primaquine,"antimalarial agent, DNA inhibitor","KRT7, NQO2",True,dna
+cytotoxic/removal-like,BRD-K79821389-001-03-5,rubitecan,topoisomerase inhibitor,TOP1,True,topoisomerase
+cytotoxic/removal-like,BRD-A64064900-001-02-3,sangivamycin,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K42497885-001-01-1,satraplatin,DNA alkylating agent,,True,alkylat;dna
+cytotoxic/removal-like,BRD-A70083328-001-23-5,secnidazole,"acetylcholinesterase inhibitor, microtubule inhibitor",,True,microtubule
+cytotoxic/removal-like,BRD-K49071277-001-04-7,securinine,"GABA receptor antagonist, TP53 activator",GABRA1,True,\btp53\b
+cytotoxic/removal-like,BRD-K65924316-001-03-1,serdemetan,MDM inhibitor,MDM2,True,\bmdm\b
+cytotoxic/removal-like,BRD-K34411947-001-12-5,streptozotocin,DNA alkylating agent,SLC2A2,True,alkylat;dna
+cytotoxic/removal-like,BRD-K95142244-001-01-5,talazoparib,PARP inhibitor,PARP2,True,\bparp\b
+cytotoxic/removal-like,BRD-K87512222-019-01-7,taltobulin,tubulin polymerization inhibitor,,True,tubulin
+cytotoxic/removal-like,BRD-K42495768-001-01-7,tasisulam,apoptosis stimulant,,True,apoptosis
+cytotoxic/removal-like,BRD-K32107296-001-16-9,temozolomide,DNA alkylating agent,MGMT,True,alkylat;dna
+cytotoxic/removal-like,BRD-A35588707-001-05-5,teniposide,topoisomerase inhibitor,"TOP2A, TOP2B",True,topoisomerase
+cytotoxic/removal-like,BRD-A39935389-001-05-9,teroxirone,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K92968657-001-01-6,tirapazamine,DNA inhibitor,,True,dna
+cytotoxic/removal-like,BRD-K55696337-003-24-4,topotecan,topoisomerase inhibitor,"TOP1, TOP1MT",True,topoisomerase
+cytotoxic/removal-like,BRD-K81916719-001-13-9,triclabendazole,microtubule inhibitor,DNMT1,True,microtubule
+cytotoxic/removal-like,BRD-K72951360-001-01-4,valrubicin,"DNA inhibitor, topoisomerase inhibitor",TOP2A,True,topoisomerase;dna
+cytotoxic/removal-like,BRD-K62391742-001-03-0,venetoclax,BCL inhibitor,BCL2,True,bcl
+cytotoxic/removal-like,BRD-K62391742-001-09-7,venetoclax,BCL inhibitor,BCL2,True,bcl
+cytotoxic/removal-like,BRD-K42673188-001-01-1,verubulin,tubulin polymerization inhibitor,TUBB,True,tubulin
+cytotoxic/removal-like,BRD-K06519765-065-01-6,vinblastine,"microtubule inhibitor, tubulin polymerization inhibitor","JUN, TUBA1A, TUBB, TUBD1, TUBE1, TUBG1",True,tubulin;microtubule;vinblastine
+cytotoxic/removal-like,BRD-K12251893-065-04-7,vincristine,tubulin polymerization inhibitor,"TUBA4A, TUBB",True,tubulin
+cytotoxic/removal-like,BRD-K59753975-001-02-6,vindesine,tubulin polymerization inhibitor,"TUBB, TUBB1",True,tubulin
+cytotoxic/removal-like,BRD-K64120610-001-01-4,vinflunine,microtubule inhibitor,,True,microtubule
+cytotoxic/removal-like,BRD-K69280563-001-01-8,vinorelbine,tubulin polymerization inhibitor,"TUBA1A, TUBA1B, TUBA1C, TUBA3C, TUBA3D, TUBA3E, TUBA4A, TUBB, TUBB1, TUBB2A, TUBB2B, TUBB3, TUBB4A, TUBB4B, TUBB6, TUBB8",True,tubulin
+cytotoxic/removal-like,BRD-K23677682-003-01-2,voreloxin,topoisomerase inhibitor,TOP2A,True,topoisomerase

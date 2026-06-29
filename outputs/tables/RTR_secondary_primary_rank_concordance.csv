@@ -1,0 +1,2 @@
+metric,value,n,note
+spearman_rho_secondary_vs_primary_RTR_contrast,0.349,480,"Spearman correlation between the Secondary and Primary per-dataset repair-minus-removal percentile ranks across dual-evaluable cell lines; computed from outputs/tables/cell_line_RTR_scores_with_quadrants_and_variants.csv. Spearman is invariant to monotone transform, so this equals the correlation of the per-dataset percentile ranks that are averaged in the combined RTR score. Used as a rank-averaging concordance check for the combined RTR score."

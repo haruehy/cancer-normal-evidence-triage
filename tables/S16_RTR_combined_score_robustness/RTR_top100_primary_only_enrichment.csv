@@ -1,0 +1,11 @@
+quantity,value,note
+top100_primary_only_count,31,Primary-only cell lines among the combined RTR Top100
+top100_size,100,combined RTR Top100 size
+top100_primary_only_fraction,0.31,31/100
+background_primary_only_count,98,Primary-only cell lines among all evaluable combined-score cell lines
+background_total,578,evaluable combined-score cell lines
+background_primary_only_fraction,0.1696,98/578 = 17.0%
+hypergeometric_one_sided_P_X_ge_31,8.9e-05,P(X>=31) under hypergeometric null (over-representation)
+fisher_exact_two_sided_p,1.1e-04,"two-sided Fisher exact on 2x2 [[31,69],[67,411]]"
+odds_ratio,2.76,odds ratio for Primary-only enrichment in Top100
+note_overall,Computed from outputs/tables/cell_line_RTR_scores_with_quadrants_and_variants.csv. Primary-only = secondary contrast NaN and primary contrast present. Used to quantify Primary-only over-representation in the combined Top100. Mitigated by the dual-evaluable-only sensitivity check (69/100 overlap; Bone+Soft Tissue aggregate remained enriched).,
