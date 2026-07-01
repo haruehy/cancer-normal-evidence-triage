@@ -1,0 +1,6 @@
+analysis_group,curated_annotation_count_n,response_group_summary_n_drugs,response_minus_curated_n,interpretation
+strict repair/protective,6,6,0,Counts match between the curated annotation table and the response-summary table.
+broad repair/protective,75,75,0,Counts match between the curated annotation table and the response-summary table.
+cytotoxic/removal-like,157,157,0,Counts match between the curated annotation table and the response-summary table.
+other,1261,1264,3,PRISM Secondary response-observed drugs lacking a curated annotation row are assigned to other in the response-summary merge.
+TOTAL,1499,1502,3,The total difference is fully accounted for by the other class in the response-summary table.
